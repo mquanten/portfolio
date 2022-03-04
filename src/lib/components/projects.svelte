@@ -12,4 +12,10 @@
     <ProjectCard />
     <ProjectCard />
   </div>
+  <button
+    class="primary ml-4 mt-4"
+    on:click={() => (window.location.href = '/projects')}
+  >
+    View All
+  </button>
 </div>
