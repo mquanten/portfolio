@@ -8,7 +8,7 @@
   >
     Projects
   </h2>
-  <div class="slider w-screen flex md:flex-flow overflow-x-auto pl-4 md:pl-12">
+  <div class="slider w-screen flex md:flex-flow overflow-x-auto pl-4 ml-4 md:pl-12">
     <ProjectCard />
     <ProjectCard />
   </div>
