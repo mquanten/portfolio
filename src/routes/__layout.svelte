@@ -5,7 +5,7 @@
   let year = new Date().getFullYear()
 </script>
 
-<header class="flex justify-between items-center px-12 py-6">
+<header class="flex justify-between items-center px-2 md:px-12 py-6">
   <Logo />
   <nav class="group relative">
     <button class="ghost" role="menu">
