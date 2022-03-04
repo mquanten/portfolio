@@ -1,15 +1,12 @@
 <script>
   import { page } from '$app/stores'
+  import Logo from '$lib/components/logo.svelte'
   import '../app.css'
   let year = new Date().getFullYear()
 </script>
 
 <header class="flex justify-between items-center px-12 py-6">
-  <div
-    class="bg-gradient-to-br from-blue-500 to-green-400 rounded-tr-sm rounded-bl-sm rounded-tl-lg rounded-br-lg w-12 h-12 grid place-items-center text-2xl font-bold"
-  >
-    m
-  </div>
+  <Logo />
   <nav class="group relative">
     <button class="ghost" role="menu">
       <svg
@@ -73,12 +70,8 @@
   class="p-12 bg-baseDark text-textDark text-neutral-content flex items-center justify-between"
 >
   <div class="text-sm">
-    <div
-      class="text-text bg-gradient-to-br from-blue-500 to-green-400 rounded-tr-sm rounded-bl-sm rounded-tl-lg rounded-br-lg w-12 h-12 grid place-items-center text-2xl font-bold mb-2"
-    >
-      m
-    </div>
-    <p>Blazing fast websites.</p>
+    <Logo />
+    <p class="mt-2">Blazing fast websites.</p>
     <p>Copyright © {year}</p>
     <div class="flex items-center mt-2">
       <a href="https://github.com/mquanten" class="mr-3">
