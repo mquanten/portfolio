@@ -1,17 +1,17 @@
 <script>
-  import {page} from '$app/stores'
+  import { page } from '$app/stores'
   import '../app.css'
   let year = new Date().getFullYear()
 </script>
 
-<header class="flex justify-between items-center p-12">
+<header class="flex justify-between items-center px-12 py-6">
   <div
     class="bg-gradient-to-br from-blue-500 to-green-400 rounded-tr-sm rounded-bl-sm rounded-tl-lg rounded-br-lg w-12 h-12 grid place-items-center text-2xl font-bold"
   >
     m
   </div>
   <nav class="group relative">
-    <button role="menu">
+    <button class="ghost" role="menu">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-6 w-6"
@@ -68,7 +68,7 @@
     </ul>
   </nav>
 </header>
-
+<main><slot /></main>
 <footer
   class="p-12 bg-baseDark text-textDark text-neutral-content flex items-center justify-between"
 >

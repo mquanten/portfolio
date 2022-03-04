@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  button {
+    @apply rounded-lg p-3 shadow-md font-semibold bg-text;
+    &.primary {
+      @apply bg-gradient-to-br from-primary to-secondary;
+    }
+    &.ghost {
+      @apply shadow-none bg-transparent;
+    }
+  }
+}
