@@ -18,7 +18,7 @@
     }
   }
   .container {
-    @apply pt-16 pb-16 md:pt-24 md:pb-40 md:w-full flex justify-center items-center;
+    @apply pt-16 pb-12 md:pt-24 md:pb-8 md:w-full flex justify-center items-center;
   }
 }
 html,
