@@ -1,5 +1,5 @@
-<div class="px-12 py-32 w-full grid place-items-center 1bg-slate-300">
-  <div class="flex w-full items-center justify-evenly">
+<div class="pt-24 pb-40 w-full grid place-items-center 1bg-slate-300">
+  <div class="flex w-5/6 items-center justify-around">
     <div class="flex flex-col max-w-sm">
       <h1 class="text-6xl font-bold">Hello, my name is Mac</h1>
       <p class="py-4">
