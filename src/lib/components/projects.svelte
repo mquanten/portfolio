@@ -19,3 +19,10 @@
     View All
   </button>
 </div>
+
+<style>
+  .slider {
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+  }
+</style>
