@@ -31,7 +31,7 @@
           class="p-1 rounded-md"
           class:active={route === $page.url.pathname.slice(1)}
         >
-          <a href={route === '' ? '/':route} class="py-1 pr-16">{route === '' ? 'Home' : route}</a
+          <a href={route === '' ? '/':route.toLowerCase()} class="py-1 pr-16">{route === '' ? 'Home' : route}</a
           >
         </li>
       {/each}
