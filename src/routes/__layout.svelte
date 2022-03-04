@@ -29,7 +29,7 @@
       {#each ['', 'About', 'Projects', 'Blog'] as route}
         <li
           class="p-1 rounded-md"
-          class:active={route === $page.url.pathname.slice(1)}
+          class:active={route.toLowerCase() === $page.url.pathname.slice(1)}
         >
           <a href={route === '' ? '/':route.toLowerCase()} class="py-1 pr-16">{route === '' ? 'Home' : route}</a
           >

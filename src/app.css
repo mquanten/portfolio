@@ -15,6 +15,9 @@
     }
     &.link {
       @apply p-0 bg-transparent shadow-none text-primary hover:bg-primary;
+      &:hover {
+        @apply bg-transparent;
+      }
     }
   }
   .container {
