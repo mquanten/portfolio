@@ -1,7 +1,39 @@
 <script>
+  import { page } from '$app/stores'
   import '../app.css'
 </script>
 
-<main class='m-1 p-1'>
-  <slot/>
-</main>
+<header class='flex justify-between items-center p-12'>
+  <div class="bg-gradient-to-br from-blue-500 to-green-400 rounded-tr-sm rounded-bl-sm rounded-tl-lg rounded-br-lg w-12 h-12 grid place-items-center text-2xl font-bold">m</div>
+  <nav class='group relative'>
+    <button role='menu'>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+      </svg>
+    </button>
+    <ul class='px-4 py-6 w-40 rounded-2xl shadow-xl absolute right-3 hidden group-hover:flex flex-col'>
+     {#each ['/', 'About', 'Projects', 'Blog'] as route}
+        <li  class='p-1 rounded-md' class:active={route === $page.url.pathname.slice(1)}>
+          <a href={route} class='pr-16 py-1'>{route === '/'?'Home':route}</a>
+        </li>
+      {/each}
+      <li class='flex items-center justify-start pl-1 mt-4'>
+        <a href='https://github.com/mquanten' class='mr-3'>
+          <svg xmlns="http://www.w3.org/2000/svg" class='' viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+        <a href='mailto:mac.develops@icloud.com' class='mr-3'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  nav ul li.active {
+    @apply bg-slate-200;
+  }
+</style>

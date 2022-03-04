@@ -21,6 +21,9 @@
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom/extend-expect"
     ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/tests/__mocks__/styleMock.js"
+    },
     "testEnvironment": "jsdom"
   },
   "babel": {
@@ -37,6 +40,7 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
+    "@rgossiaux/svelte-headlessui": "^1.0.0-beta.10",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@tailwindcss/aspect-ratio": "^0.4.0",
