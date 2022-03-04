@@ -5,13 +5,13 @@
   let year = new Date().getFullYear()
 </script>
 
-<header class="flex justify-between items-center px-4 md:px-12 py-6">
+<header class="flex items-center justify-between px-4 py-6 md:px-12">
   <Logo />
-  <nav class="group relative">
+  <nav class="relative group">
     <button class="ghost" role="menu">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6"
+        class="w-6 h-6"
         viewBox="0 0 20 20"
         fill="currentColor"
       >
@@ -23,14 +23,15 @@
       </svg>
     </button>
     <ul
-      class="bg-base w-40 rounded-2xl shadow-xl absolute right-3 hidden group-hover:flex flex-col px-4 py-6"
+      class="absolute flex-col hidden w-40 px-4 py-6 shadow-xl bg-base rounded-2xl right-3 group-hover:flex"
     >
-      {#each ['/', 'About', 'Projects', 'Blog'] as route}
+
+      {#each ['', 'About', 'Projects', 'Blog'] as route}
         <li
           class="p-1 rounded-md"
           class:active={route === $page.url.pathname.slice(1)}
         >
-          <a href={route} class="pr-16 py-1">{route === '/' ? 'Home' : route}</a
+          <a href={route === '' ? '/':route} class="py-1 pr-16">{route === '' ? 'Home' : route}</a
           >
         </li>
       {/each}
@@ -51,7 +52,7 @@
         <a href="mailto:mac.develops@icloud.com" class="mr-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
+            class="w-5 h-5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -65,9 +66,11 @@
     </ul>
   </nav>
 </header>
+
 <main><slot /></main>
+
 <footer
-  class="px-4 py-6 md:p-12 bg-baseDark text-textDark text-neutral-content flex items-center justify-between"
+  class="flex items-center justify-between px-4 py-6 md:p-12 bg-baseDark text-textDark text-neutral-content"
 >
   <div class="text-sm">
     <Logo />
@@ -91,7 +94,7 @@
       <a href="mailto:mac.develops@icloud.com" class="mr-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
+          class="w-5 h-5"
           viewBox="0 0 20 20"
           fill="currentColor"
         >

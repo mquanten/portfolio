@@ -4,20 +4,20 @@
 
 <div class="container">
   <div
-    class="flex md:w-5/6 items-center text-center md:text-left justify-around"
+    class="flex items-center justify-around text-center md:w-5/6 md:text-left"
   >
-    <div class="flex w-5/6 flex-col md:w-3/5">
-      <h1 class="text-4xl md:text-6xl font-bold md:-mt-32">Hello, I'm Mac</h1>
+  <div class="flex flex-col w-5/6 md:w-3/5 lg:w-2/4">
+      <h1 class="text-4xl font-bold md:-mt-32 md:text-6xl">Hello, I'm Mac</h1>
       <p class="py-4">
-        I'm a front end web developer using cutting edge technologies to build
+        an avid frontend developer utilising cutting edge technologies to build
         websites you'll be happy with.
       </p>
       <button
         on:click={() => (window.location.href = 'about')}
-        class="primary max-w-xs">More about me</button
+        class="max-w-xs primary">More about me</button
       >
     </div>
-    <div class="hidden md:block w-2/5">
+    <div class="hidden w-2/5 md:block">
       <HeroImage />
     </div>
   </div>

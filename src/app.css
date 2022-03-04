@@ -3,22 +3,22 @@
 @tailwind utilities;
 @layer components {
   button {
-    @apply rounded-lg p-3 shadow-md font-semibold bg-text;
+    @apply p-3 font-semibold rounded-lg shadow-md bg-text;
     &.primary {
       @apply bg-gradient-to-br from-primary to-secondary;
     }
     &.secondary {
-      @apply bg-text text-base;
+      @apply text-base bg-text;
     }
     &.ghost {
-      @apply shadow-none bg-transparent;
+      @apply bg-transparent shadow-none;
     }
     &.link {
-      @apply bg-transparent shadow-none p-0 text-primary hover:bg-primary;
+      @apply p-0 bg-transparent shadow-none text-primary hover:bg-primary;
     }
   }
   .container {
-    @apply pt-16 pb-12 md:pt-24 md:pb-8 md:w-full flex justify-center items-center;
+    @apply flex items-center justify-center pt-24 pb-32 md:pt-24 md:pb-32 md:w-full;
   }
 }
 html,

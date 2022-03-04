@@ -2,18 +2,19 @@
   import ProjectCard from './project-card.svelte'
 </script>
 
-<div class="container flex-col items-start">
+<div class="container flex-col items-start md:items-center md:mx-auto">
   <h2
-    class="text-1xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 pl-4 mb-4 md:pl-12 md:text-4xl"
+    class="pl-4 mb-4 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 md:pl-12 md:text-4xl text-1xl"
   >
     Projects
   </h2>
-  <div class="slider w-screen flex md:flex-flow overflow-x-auto pl-4 ml-4 md:pl-12">
+  <div class="flex w-screen pl-4 ml-4 overflow-x-auto md:flex-wrap md:justify-center md:pl-12 slider max-w-96">
+    <ProjectCard />
     <ProjectCard />
     <ProjectCard />
   </div>
   <button
-    class="primary ml-4 mt-4 md:ml-12"
+    class="mt-4 ml-4 md:ml-12 primary"
     on:click={() => (window.location.href = '/projects')}
   >
     View All
