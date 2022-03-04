@@ -21,7 +21,7 @@
     @apply pt-16 pb-16 md:pt-24 md:pb-40 md:w-full flex justify-center items-center;
   }
 }
-¡ html,
+html,
 body {
   @apply overflow-x-hidden;
 }
