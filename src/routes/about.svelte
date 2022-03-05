@@ -10,7 +10,7 @@
     <button class='primary' on:click={() => window.location.href='/projects'}>View my work</button>
 </div>
 <style>
-  p {
+  article p {
     max-width: 90vw;
   }
 </style>
