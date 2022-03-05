@@ -16,9 +16,3 @@
     <button class="link">View more</button>
   </div>
 </a>
-
-<style>
-  a {
-    scroll-snap-align: start;
-  }
-</style>
