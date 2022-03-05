@@ -107,9 +107,3 @@
     </div>
   </div>
 </footer>
-
-<style>
-  nav ul li.active {
-    @apply bg-slate-200;
-  }
-</style>
