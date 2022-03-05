@@ -2,9 +2,9 @@
 
 ## Todo
 
-- [ ] Add About Page
-- [ ] Add Projects Page
+- [x] Add About Page
+- [x] Add Projects Page
 - [ ] Add Unique Project Page
-- [ ] Add Blog Page
+- [x] Add Blog Page
 - [ ] Add Unique Post Page
 - [ ] Add Page Transitions
