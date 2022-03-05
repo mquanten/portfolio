@@ -36,7 +36,7 @@
         </li>
       {/each}
       <li class="flex items-center justify-start pl-1 mt-4">
-        <a href="https://github.com/mquanten" class="mr-3">
+        <a href="https://github.com/mquanten" class="mr-3" aria-label="GitHub">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class=""
@@ -49,7 +49,7 @@
             /></svg
           >
         </a>
-        <a href="mailto:mac.develops@icloud.com" class="mr-3">
+        <a href="mailto:mac.develops@icloud.com" class="mr-3">m aria-label="email">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-5 h-5"
