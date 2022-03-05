@@ -26,9 +26,6 @@
   .title {
     @apply text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 md:text-4xl;
   }
-  nav ul li.active {
-    @apply bg-slate-200;
-  }
 }
 html,
 body {
