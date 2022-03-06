@@ -1,5 +1,7 @@
 {
-  "name": "svelte-template",
+  "name": "mac-porfolio",
+  "description": "Portfolio website for Mac, an avid frontend developer using cutting edge technologies to create websites you'll be happy with.",
+  "license": "UNLICENSED",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
