@@ -1,4 +1,4 @@
-# SvelteKit Starter
+# Portfolio
 
 ## Todo
 
@@ -8,3 +8,5 @@
 - [x] Add Blog Page
 - [ ] Add Unique Post Page
 - [ ] Add Page Transitions
+- [ ] Add Music Icon when music is released
+- [ ] Add Game Icon when game is released
