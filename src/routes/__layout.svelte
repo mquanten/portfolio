@@ -80,7 +80,7 @@
     <Logo />
     <p class="mt-2">Blazing fast websites.</p>
     <p>Copyright © {year}</p>
-    <div class="flex items-center mt-2 space-x-5">
+    <div class="flex items-center mt-2 space-x-4">
       <a href="https://github.com/mquanten" aria-label="GitHub">
         <svg
           xmlns="http://www.w3.org/2000/svg"
