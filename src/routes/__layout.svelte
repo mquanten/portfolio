@@ -80,8 +80,8 @@
     <Logo />
     <p class="mt-2">Blazing fast websites.</p>
     <p>Copyright © {year}</p>
-    <div class="flex items-center mt-2">
-      <a href="https://github.com/mquanten" class="mr-3" aria-label="GitHub">
+    <div class="flex items-center mt-2 space-x-3">
+      <a href="https://github.com/mquanten" aria-label="GitHub">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class=""
@@ -95,7 +95,7 @@
           /></svg
         >
       </a>
-      <a href="mailto:mac.develops@icloud.com" class="mr-3" aria-label="email">
+      <a href="mailto:mac.develops@icloud.com" aria-label="email">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="w-5 h-5"
