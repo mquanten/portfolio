@@ -1,13 +1,15 @@
+<script>
+  export let title, date, snippet, path
+</script>
 <a
-  href="/"
-  class="flex items-center rounded-2xl w-5/6 my-4 shadow-sm lg:w-3/4 md:w-4/6"
+  href={path}
+  class="flex items-center w-5/6 my-4 shadow-sm rounded-2xl lg:w-1/2 md:w-4/6"
 >
   <div class="p-4">
-    <h2 class="text-xl font-semibold">Title</h2>
-    <span class="text-xs text-slate-500">00.00.00</span>
+    <h2 class="text-xl font-semibold">{title}</h2>
+    <span class="text-xs text-slate-500">{date}</span>
     <p class="py-2 line-clamp-2">
-      A snippet of text goes here Lorem ipsum dolor sit, amet consectetur
-      adipisicing elit. Est, nemo.
+      {snippet}
     </p>
     <button class="link">Read more</button>
   </div>

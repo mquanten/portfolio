@@ -71,7 +71,7 @@
   </nav>
 </header>
 
-<main><slot /></main>
+<main class='min-h-screen'><slot/></main>
 
 <footer
   class="flex items-center justify-between px-4 py-6 md:p-12 bg-primary-800 text-zinc-50"
