@@ -4,13 +4,13 @@
 
 <div class="container">
   <div
-    class="flex items-center justify-around space-y-6 md:space-y-0 text-center md:w-5/6 md:text-left"
+    class="flex items-center justify-around text-center md:w-5/6 md:text-left"
   >
     <div class="flex flex-col w-5/6 md:w-3/5 lg:w-2/4">
       <h1 class="text-4xl font-bold text-primary-800 md:-mt-32 md:text-6xl">
         Hello, I'm Mac
       </h1>
-      <p class="py-4">
+      <p class="py-8 md:py-4">
         an avid frontend developer utilising cutting edge technologies to build
         websites you'll be happy with.
       </p>
