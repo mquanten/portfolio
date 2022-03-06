@@ -13,6 +13,7 @@ export default {
     mdsvex({
       extensions: ['.md'],
       layout: {
+        project: 'src/routes/projects/_project.svelte'
         blog: 'src/routes/blog/_blog.svelte'
       }
     })
