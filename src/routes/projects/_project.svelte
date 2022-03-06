@@ -3,7 +3,7 @@
   export let title, date, cover, snippet, tags
 </script>
 
-{#if $page.url.pathname === '/blog'}
+{#if $page.url.pathname === '/projects'}
 <slot/>
 {/if}
 
