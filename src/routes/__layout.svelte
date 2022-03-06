@@ -30,7 +30,7 @@
           class="p-1 rounded-md"
           class:active={route.toLowerCase() === $page.url.pathname.slice(1)}
         >
-          <a href={route === '' ? '/' : route.toLowerCase()} class="py-1 pr-16"
+          <a href={route === '' ? '/' : `/${route.toLowerCase()}`} class="py-1 pr-16"
             >{route === '' ? 'Home' : route}</a
           >
         </li>
