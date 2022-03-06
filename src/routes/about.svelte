@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>About | Mac</title>
+</svelte:head>
 <div class="container flex-col py-6">
   <h1 class="title">About</h1>
   <img src="avatar.jpeg" alt="avatar" class="w-32 h-32 my-4 rounded-full" />
