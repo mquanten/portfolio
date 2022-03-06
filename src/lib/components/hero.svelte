@@ -2,7 +2,7 @@
   import HeroImage from './hero-image.svelte'
 </script>
 
-<div class="container">
+<div class="container mx-0">
   <div
     class="flex items-center justify-around text-center md:w-5/6 md:text-left"
   >
@@ -19,7 +19,7 @@
         class="max-w-xs primary">More about me</button
       >
     </div>
-    <div class="hidden w-2/5 md:block">
+    <div class="hidden w-2/5 md:1/5 md:block">
       <HeroImage />
     </div>
   </div>

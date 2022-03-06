@@ -5,7 +5,7 @@
   let year = new Date().getFullYear()
 </script>
 
-<header class="flex items-center justify-between px-4 py-6 md:px-12">
+<header class="flex items-center justify-between px-4 py-6 md:px-12 2xl:px-96">
   <Logo />
   <nav class="relative group">
     <button class="menu" aria-label="menu button">
@@ -23,7 +23,7 @@
       </svg>
     </button>
     <ul
-      class="absolute flex-col hidden w-40 px-4 py-6 shadow-xl bg-slate-50 rounded-2xl right-3 group-hover:flex"
+      class="absolute z-10 flex-col hidden w-40 px-4 py-6 shadow-xl bg-slate-50 rounded-2xl right-3 group-hover:flex"
     >
       {#each ['', 'About', 'Projects', 'Blog'] as route}
         <li
