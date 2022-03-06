@@ -10,7 +10,7 @@
       <h1 class="text-4xl font-bold text-primary-800 md:-mt-32 md:text-6xl">
         Hello, I'm Mac
       </h1>
-      <p class="py-8 md:py-4">
+      <p class="py-10 md:py-4">
         an avid frontend developer utilising cutting edge technologies to build
         websites you'll be happy with.
       </p>
