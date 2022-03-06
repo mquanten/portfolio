@@ -25,13 +25,13 @@
     <ul
       class="absolute flex-col hidden w-40 px-4 py-6 shadow-xl bg-base rounded-2xl right-3 group-hover:flex"
     >
-
       {#each ['', 'About', 'Projects', 'Blog'] as route}
         <li
           class="p-1 rounded-md"
           class:active={route.toLowerCase() === $page.url.pathname.slice(1)}
         >
-          <a href={route === '' ? '/':route.toLowerCase()} class="py-1 pr-16">{route === '' ? 'Home' : route}</a
+          <a href={route === '' ? '/' : route.toLowerCase()} class="py-1 pr-16"
+            >{route === '' ? 'Home' : route}</a
           >
         </li>
       {/each}
@@ -49,7 +49,7 @@
             /></svg
           >
         </a>
-        <a href="mailto:mac.develops@icloud.com" class="mr-3">m aria-label="email">
+        <a href="mailto:mac.develops@icloud.com" class="mr-3" aria-label="email">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-5 h-5"
@@ -77,7 +77,7 @@
     <p class="mt-2">Blazing fast websites.</p>
     <p>Copyright © {year}</p>
     <div class="flex items-center mt-2">
-      <a href="https://github.com/mquanten" class="mr-3">
+      <a href="https://github.com/mquanten" class="mr-3" aria-label="GitHub">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class=""
@@ -91,7 +91,7 @@
           /></svg
         >
       </a>
-      <a href="mailto:mac.develops@icloud.com" class="mr-3">
+      <a href="mailto:mac.develops@icloud.com" class="mr-3" aria-label="email">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="w-5 h-5"
