@@ -1,6 +1,6 @@
 <a
   href="/projects"
-  class="self-center flex-shrink-0 w-64 h-full mr-4 shadow-xl rounded-2xl md:mt-8 bg-slate-200 md:hover:scale-105 "
+  class="self-center snap-center flex-shrink-0 w-64 h-full mr-4 shadow-xl rounded-2xl md:mt-8 bg-slate-200 md:hover:scale-105 "
 >
   <div class="w-full h-32 bg-red-100 rounded-tl-2xl rounded-tr-2xl" />
   <div class="flex flex-col items-start p-4">
