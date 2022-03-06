@@ -3,6 +3,9 @@
   import Projects from '$lib/components/project-list.svelte'
 </script>
 
+<svelte:head>
+  <title>Mac | Frontend Developer</title>
+</svelte:head>
 <Hero />
 <div class="container flex-col">
   <h2 class="pl-4 title md:pl-12">Projects</h2>
