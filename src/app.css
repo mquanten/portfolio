@@ -17,7 +17,7 @@
       @apply bg-transparent shadow-none;
     }
     &.link {
-      @apply p-0 bg-transparent shadow-none text-primary-600 hover:bg-primary-100 hover:text-primary-100;
+      @apply p-0 bg-transparent shadow-none text-primary-700 hover:bg-primary-100 hover:text-primary-100;
       &:hover {
         @apply bg-transparent;
       }
