@@ -23,7 +23,7 @@
       </svg>
     </button>
     <ul
-      class="absolute flex-col hidden w-40 px-4 py-6 shadow-xl bg-base rounded-2xl right-3 group-hover:flex"
+      class="absolute flex-col hidden w-40 px-4 py-6 shadow-xl bg-slate-50 rounded-2xl right-3 group-hover:flex"
     >
       {#each ['', 'About', 'Projects', 'Blog'] as route}
         <li
@@ -49,7 +49,11 @@
             /></svg
           >
         </a>
-        <a href="mailto:mac.develops@icloud.com" class="mr-3" aria-label="email">
+        <a
+          href="mailto:mac.develops@icloud.com"
+          class="mr-3"
+          aria-label="email"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-5 h-5"
@@ -70,7 +74,7 @@
 <main><slot /></main>
 
 <footer
-  class="flex items-center justify-between px-4 py-6 md:p-12 bg-baseDark text-textDark text-neutral-content"
+  class="flex items-center justify-between px-4 py-6 md:p-12 bg-primary-800 text-zinc-50"
 >
   <div class="text-sm">
     <Logo />
