@@ -4,7 +4,7 @@
 <div class="container flex-col py-6">
   <h1 class="title">About</h1>
   <img src="avatar.jpeg" alt="avatar" class="w-32 h-32 my-4 rounded-full" />
-  <article class="max-w-lg mb-8 prose lg:mb-6">
+  <article class="w-5/6 max-w-lg mb-8 prose lg:mb-6">
     <p>
       Hello again, as you probably already found out from my home page, my name
       is Mac and I am a frontend developer. I specialise in building sleek, fast
