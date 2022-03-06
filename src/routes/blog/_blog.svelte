@@ -23,7 +23,7 @@
   <div class='absolute top-0 left-0 py-1 pl-3 cursor-pointer' on:click={() => window.location.href='/blog'}>
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
   </div>
-  <section id='header' class='flex flex-col items-start justify-start mt-12'>
+  <section id='header' class='flex flex-col items-start justify-start p-2 mt-12'>
     <img class='rounded-2xl' src={cover} alt={title}/>
     <h1 class='m-0'>{title}</h1>
     <span class='text-slate-500'>{date}</span>
