@@ -2,9 +2,9 @@ module.exports = {
   plugins: [
     require('autoprefixer'),
     require('tailwindcss/nesting'),
-    require('nanocss')({
+    /*require('nanocss')({
       preset: 'default'
-    }),
+    }),*/
     require('tailwindcss')
   ]
 }
