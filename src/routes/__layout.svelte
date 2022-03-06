@@ -8,7 +8,7 @@
 <header class="flex items-center justify-between px-4 py-6 md:px-12">
   <Logo />
   <nav class="relative group">
-    <button class="ghost" role="menu" aria-label="menu">
+    <button class="menu" role="menu" aria-label="menu">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="w-6 h-6"
