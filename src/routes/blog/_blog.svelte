@@ -28,7 +28,7 @@
     <h1 class='m-0'>{title}</h1>
     <span class='text-slate-500'>{date}</span>
   </section>
-  <section id='content'>
+  <section id='content' class="p-2">
     <slot/>
     <p>Thanks for reading this post.</p>
     <div class='flex flex-col items-start space-y-2'>
