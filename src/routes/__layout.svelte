@@ -19,11 +19,11 @@
       >
         <path
           d="M4 8h16"
-          class="rotate-0 translate-x-0 translate-y-0 group-hover:group-focus:rotate-[-45deg] group-hover:translate-y-[18px] group-hover:translate-x-[-2px]"
+          class="rotate-0 translate-x-0 translate-y-0 group-hover:rotate-[-45deg] group-hover:translate-y-[18px] group-hover:translate-x-[-2px]"
         />
         <path
           d="M4 14h16"
-          class="rotate-0 translate-x-0 translate-y-0 group-hover:group-focus:rotate-[45deg] group-hover:translate-y-[-3px] group-hover:translate-x-[14px]"
+          class="rotate-0 translate-x-0 translate-y-0 group-hover:rotate-[45deg] group-hover:translate-y-[-3px] group-hover:translate-x-[14px]"
         />
       </svg>
     </button>
