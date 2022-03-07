@@ -33,7 +33,11 @@
     >
   </a>
   <section id="header" class="flex flex-col items-start justify-start md:p-4">
-    <img class="rounded-2xl aspect-2" src={cover} alt={title} />
+    <img
+      class="rounded-2xl aspect-2 shadow-md"
+      src={`../../static/blog/${cover}`}
+      alt={title}
+    />
     <h1 class="m-0">{title}</h1>
     <span class="text-slate-500">{date}</span>
   </section>
