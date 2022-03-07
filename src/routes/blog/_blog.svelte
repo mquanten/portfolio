@@ -22,10 +22,7 @@
 <article
   class="relative flex flex-col items-center p-4 mx-auto prose max-w-prose"
 >
-  <div
-    class="absolute top-0 left-0 py-1 pl-3 cursor-pointer"
-    on:click={() => (window.location.href = '/blog')}
-  >
+  <a href="/blog" class="absolute top-0 left-0 py-1 pl-3 cursor-pointer">
     <svg
       class="w-6 h-6"
       fill="none"
@@ -39,11 +36,8 @@
         d="M10 19l-7-7m0 0l7-7m-7 7h18"
       /></svg
     >
-  </div>
-  <section
-    id="header"
-    class="flex flex-col items-start justify-start md:p-4 mt-0"
-  >
+  </a>
+  <section id="header" class="flex flex-col items-start justify-start md:p-4">
     <img class="rounded-2xl aspect-2" src={cover} alt={title} />
     <h1 class="m-0">{title}</h1>
     <span class="text-slate-500">{date}</span>
@@ -53,8 +47,8 @@
     <p>Thanks for reading this post.</p>
     <div class="flex flex-col items-start space-y-2">
       <h2>Mac</h2>
-      <button class="link" on:click={() => (window.location.href = '/blog')}
-        >Read more posts</button
+      <a href="/blog" class="link text-primary-700 no-underline"
+        >Read more posts</a
       >
     </div>
   </section>

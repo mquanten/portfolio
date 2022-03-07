@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @layer components {
-  button {
+  button,
+  .btn {
     @apply p-3 font-semibold rounded-lg shadow-md bg-primary-800 text-slate-50;
     &:hover {
       @apply bg-primary-900 text-slate-100;

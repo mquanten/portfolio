@@ -16,7 +16,13 @@
     <ul class="flex items-center space-x-2">
       {#each technologies as tech}
         <li class="inline-block">
-          <img src={`${tech}.svg`} alt={tech} />
+          <img
+            src={tech === 'tw'
+              ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg`
+              : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
+            alt={title}
+            class="w-5 h-5"
+          />
         </li>
       {/each}
     </ul>

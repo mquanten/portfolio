@@ -13,7 +13,7 @@
 
 <script>
   import Hero from '$lib/components/hero.svelte'
-  import Projects from '$lib/components/project-list.svelte'
+  import ProjectList from '$lib/components/project-list.svelte'
   export let projects
 </script>
 
@@ -23,11 +23,8 @@
 <Hero />
 <div class="container flex-col">
   <h2 class="pl-4 title md:pl-12">Projects</h2>
-  <Projects {projects} />
-  <button
-    class="mt-4 ml-4 md:ml-12 primary"
-    on:click={() => (window.location.href = '/projects')}
-  >
+  <ProjectList {projects} />
+  <a href="/about" role="button" class="mt-4 ml-4 md:ml-12 primary">
     View All
-  </button>
+  </a>
 </div>
