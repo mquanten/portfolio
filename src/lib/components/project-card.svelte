@@ -9,7 +9,7 @@
   <img
     src={image}
     alt={title}
-    class="w-full h-32 bg-red-100 rounded-tl-2xl rounded-tr-2xl"
+    class="w-full h-36 bg-red-100 rounded-tl-2xl rounded-tr-2xl"
   />
   <div class="flex flex-col items-start p-4 space-y-2">
     <h2 class="text-2xl">{title}</h2>

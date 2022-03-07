@@ -1,11 +1,6 @@
 <script>
-  import { page } from '$app/stores'
   export let title, date, cover, snippet, tags
 </script>
-
-{#if $page.url.pathname === '/blog'}
-  <slot />
-{/if}
 
 <svelte:head>
   <title>{title} | Mac</title>

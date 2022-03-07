@@ -1,10 +1,6 @@
 <script>
-  export let title, date, cover, snippet, technologies
+  export let title, date, image, snippet, technologies
 </script>
-
-{#if $page.url.pathname === '/blog'}
-  <slot />
-{/if}
 
 <svelte:head>
   <title>{title} | Mac</title>
@@ -37,8 +33,19 @@
     >
   </a>
   <section id="header" class="flex flex-col items-start justify-start md:p-4">
-    <img class="rounded-2xl aspect-2" src={cover} alt={title} />
+    <img class="rounded-2xl aspect-2" src={image} alt={title} />
     <h1 class="m-0">{title}</h1>
+    <div class="flex justify-start items-center m-0 p-0 space-x-2">
+      {#each technologies as tech}
+        <img
+          src={tech === 'tw'
+            ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg`
+            : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
+          alt={title}
+          class="w-5 h-5 m-0 my-1"
+        />
+      {/each}
+    </div>
     <span class="text-slate-500">{date}</span>
   </section>
   <section id="content" class="md:p-4">
