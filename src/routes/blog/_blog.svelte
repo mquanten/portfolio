@@ -7,7 +7,7 @@
   <meta name="description" content={snippet} />
   <meta property="og:description" content={snippet} />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content={'./blog/${cover}'} />
+  <meta property="og:image" content={'../blog/${cover}'} />
   <meta property="og:article:published_time" content={date} />
   <meta property="og:article:section" content="Blog" />
   <meta property="og:article:author:first_name" content="Mac" />
@@ -36,7 +36,7 @@
   <section id="header" class="flex flex-col items-start justify-start md:p-4">
     <img
       class="rounded-2xl aspect-2 shadow-md"
-      src={`./blog/${cover}`}
+      src={`../blog/${cover}`}
       alt={title}
     />
     <h1 class="m-0">{title}</h1>
