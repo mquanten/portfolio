@@ -8,17 +8,22 @@
 <header class="flex items-center justify-between px-4 py-6 md:px-12 2xl:px-96">
   <Logo />
   <nav class="relative group">
-    <button class="menu" aria-label="menu button">
+    <button class="menu" aria-label="menu button ">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="w-6 h-6"
-        viewBox="0 0 20 20"
-        fill="currentColor"
+        class="w-6 h-6 group"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
       >
         <path
-          fill-rule="evenodd"
-          d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-          clip-rule="evenodd"
+          d="M4 8h16"
+          class="rotate-0 translate-x-0 translate-y-0 group-hover:rotate-[-45deg] group-hover:translate-y-[18px] group-hover:translate-x-[-2px]"
+        />
+        <path
+          d="M4 14h16"
+          class="rotate-0 translate-x-0 translate-y-0 group-hover:rotate-[45deg] group-hover:translate-y-[-3px] group-hover:translate-x-[14px]"
         />
       </svg>
     </button>
@@ -30,8 +35,9 @@
           class="p-1 rounded-md"
           class:active={route.toLowerCase() === $page.url.pathname.slice(1)}
         >
-          <a href={route === '' ? '/' : `/${route.toLowerCase()}`} class="py-1 pr-16"
-            >{route === '' ? 'Home' : route}</a
+          <a
+            href={route === '' ? '/' : `/${route.toLowerCase()}`}
+            class="py-1 pr-16">{route === '' ? 'Home' : route}</a
           >
         </li>
       {/each}
@@ -71,7 +77,7 @@
   </nav>
 </header>
 
-<main class='min-h-screen'><slot/></main>
+<main class="min-h-screen"><slot /></main>
 
 <footer
   class="flex items-center justify-between px-4 py-6 md:p-12 bg-primary-800 text-zinc-50"
