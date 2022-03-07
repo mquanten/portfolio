@@ -1,10 +1,14 @@
 ---
 title: My New Site
 date: '07.03.22'
-cover: 'blog/my-new-site.jpeg'
+cover: './images/my-new-site.jpeg'
 snippet: If you're reading this, you are already on my new site. I'd have a quick look around and see what sort of things I have done with it.
 tags: ['svelte', 'web', 'portfolio']
 ---
+
+<script>
+  import Lighthouse from '../../lib/components/lighthouse.svelte'
+</script>
 
 If you're reading this, you are already on my new site. I'd have a quick look around and see what sort of things I have done with it.
 
@@ -26,4 +30,4 @@ Thanks to the lovely [mdsvex](https://mdsvex.pngwn.io) package, writing posts an
 
 Here is a little screenshot detailing how this website scores on Lighthouse, Google's website page quality tool.
 
-<video autoplay muted loop><source src='blog/lighthouse.mov' type='video/mov'></video>
+![Lighthouse Scores](./images/lighthouse.jpeg)
