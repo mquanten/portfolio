@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-auto'
 import { mdsvex } from 'mdsvex'
 import preprocess from 'svelte-preprocess'
+import relativeImages from 'mdsvex-relative-images'
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
@@ -12,6 +13,7 @@ export default {
     preprocess(),
     mdsvex({
       extensions: ['.md'],
+      remarkPlugins: [relativeImages],
       layout: {
         projects: 'src/routes/projects/_project.svelte',
         blog: 'src/routes/blog/_blog.svelte'
