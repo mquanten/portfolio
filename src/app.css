@@ -37,13 +37,13 @@
   }
 }
 @layer base {
-html,
-body {
-  @apply overflow-x-hidden text-primary-900 bg-zinc-50;
-}
-h1,
-h2,
-h3 {
-  @apply text-primary-800;
-}
+  html,
+  body {
+    @apply overflow-x-hidden text-primary-900 bg-zinc-50;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply text-primary-800;
+  }
 }
