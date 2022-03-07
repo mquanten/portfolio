@@ -8,10 +8,10 @@
 <header class="flex items-center justify-between px-4 py-6 md:px-12 2xl:px-96">
   <Logo />
   <nav class="relative group">
-    <button class="menu" aria-label="menu button ">
+    <button class="menu" aria-label="menu button">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="w-6 h-6 group"
+        class="w-6 h-6"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -19,11 +19,11 @@
       >
         <path
           d="M4 8h16"
-          class="rotate-0 translate-x-0 translate-y-0 group-hover:rotate-[-45deg] group-hover:translate-y-[18px] group-hover:translate-x-[-2px]"
+          class="rotate-0 translate-x-0 translate-y-0 group-hover:group-focusrotate-[-45deg] group-hover:translate-y-[18px] group-hover:translate-x-[-2px]"
         />
         <path
           d="M4 14h16"
-          class="rotate-0 translate-x-0 translate-y-0 group-hover:rotate-[45deg] group-hover:translate-y-[-3px] group-hover:translate-x-[14px]"
+          class="rotate-0 translate-x-0 translate-y-0 group-hover:group-focusrotate-[45deg] group-hover:translate-y-[-3px] group-hover:translate-x-[14px]"
         />
       </svg>
     </button>
