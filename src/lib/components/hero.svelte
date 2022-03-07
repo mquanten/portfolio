@@ -16,7 +16,8 @@
       </p>
       <button
         on:click={() => (window.location.href = 'about')}
-        class="self-center max-w-xs px-12 md:self-auto md:px-auto primary">More about me</button
+        class="self-center max-w-xs px-12 lg:self-auto md:px-auto primary"
+        >More about me</button
       >
     </div>
     <div class="hidden w-2/5 md:1/5 md:block">
