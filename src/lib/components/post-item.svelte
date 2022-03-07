@@ -1,6 +1,7 @@
 <script>
   export let title, date, snippet, path
 </script>
+
 <a
   href={path}
   class="flex items-center w-5/6 my-4 shadow-sm rounded-2xl lg:w-1/2 md:w-4/6"
