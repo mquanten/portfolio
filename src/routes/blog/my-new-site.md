@@ -1,7 +1,7 @@
 ---
 title: My New Site
 date: '07.03.22'
-cover: './images/my-new-site.jpeg'
+cover: 'blog/my-new-site.jpeg'
 snippet: If you're reading this you are already on my new site, so I'd have a quick look around and see what sort of things I have done with it.
 tags: ['svelte', 'web', 'portfolio']
 ---
