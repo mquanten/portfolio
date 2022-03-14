@@ -11,35 +11,6 @@
     "test": "jest src",
     "test:watch": "pnpm test -- --watch"
   },
-  "jest": {
-    "transform": {
-      "^.+\\.js$": "babel-jest",
-      "^.+\\.svelte$": "svelte-jester"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "svelte"
-    ],
-    "setupFilesAfterEnv": [
-      "@testing-library/jest-dom/extend-expect"
-    ],
-    "moduleNameMapper": {
-      "\\.(css|less)$": "<rootDir>/tests/__mocks__/styleMock.js"
-    },
-    "testEnvironment": "jsdom"
-  },
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
-    ]
-  },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
