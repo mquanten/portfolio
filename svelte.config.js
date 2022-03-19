@@ -7,9 +7,13 @@ import preprocess from 'svelte-preprocess'
 export default {
   kit: {
     adapter: adapter({
-      pages: 'docs',
-      assets: 'docs'
-    })
+        pages: "docs",
+        assets: "docs"
+    }),
+    paths: {
+        base: "/portfolio"
+    },
+    target: "#svelte"
   },
   extensions: ['.svelte', '.md'],
   preprocess: [
