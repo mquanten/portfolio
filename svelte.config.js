@@ -8,6 +8,7 @@ export default {
   kit: {
     adapter: adapter({
       pages: 'docs',
+      assets: 'docs'
     })
   },
   extensions: ['.svelte', '.md'],
