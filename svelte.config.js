@@ -1,5 +1,5 @@
 import adapter from '@sveltejs/adapter-static'
-import { mdsvex } from 'mdsvex'
+import {mdsvex} from 'mdsvex'
 import relativeImages from 'mdsvex-relative-images'
 import preprocess from 'svelte-preprocess'
 
@@ -7,6 +7,7 @@ import preprocess from 'svelte-preprocess'
 export default {
   kit: {
     adapter: adapter({
+      pages: 'public',
       precompress: true
     })
   },
