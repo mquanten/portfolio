@@ -7,7 +7,7 @@ import preprocess from 'svelte-preprocess'
 export default {
   kit: {
     adapter: adapter({
-      pages: 'public',
+      pages: 'docs',
       precompress: true
     })
   },
