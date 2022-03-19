@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static'
+import adapter from '@sveltejs/adapter-auto'
 import {mdsvex} from 'mdsvex'
 import relativeImages from 'mdsvex-relative-images'
 import preprocess from 'svelte-preprocess'
@@ -6,10 +6,7 @@ import preprocess from 'svelte-preprocess'
 /** @type {import('@sveltejs/kit').Config} */
 export default {
   kit: {
-    adapter: adapter({
-      pages: 'docs',
-      precompress: true
-    })
+    adapter: adapter()
   },
   extensions: ['.svelte', '.md'],
   preprocess: [
