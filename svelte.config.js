@@ -12,8 +12,7 @@ export default {
     }),
     paths: {
         base: "/portfolio"
-    },
-    target: "#svelte"
+    }
   },
   extensions: ['.svelte', '.md'],
   preprocess: [
