@@ -1,4 +1,5 @@
 <script>
+  import ProjectCard from "./project-card.svelte"
   export let projects
 </script>
 

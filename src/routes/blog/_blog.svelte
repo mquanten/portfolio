@@ -37,7 +37,11 @@
   <section id="header" class="flex flex-col items-start justify-start md:p-4">
     <img
       class="rounded-2xl aspect-2 shadow-md"
+<<<<<<< HEAD
       src={`../blog/${cover}`}
+=======
+      src={`../../blog/${cover}`}
+>>>>>>> 166d69f (converted to svelte adapter static for static page generation)
       alt={title}
     />
     <h1 class="m-0">{title}</h1>
