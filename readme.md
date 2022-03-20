@@ -9,5 +9,6 @@
 - [x] Add Unique Project Page
 - [x] Add Blog Page
 - [x] Add Unique Post Page
+- [ ] Add Image Preprocessing
 - [ ] Add Music Icon when music is released
 - [ ] Add Game Icon when game is released
