@@ -1,4 +1,5 @@
 import adapter from '@sveltejs/adapter-auto'
+import image from 'svelte-image'
 import {mdsvex} from 'mdsvex'
 import relativeImages from 'mdsvex-relative-images'
 import preprocess from 'svelte-preprocess'
@@ -10,6 +11,7 @@ export default {
   },
   extensions: ['.svelte', '.md'],
   preprocess: [
+    image(),
     preprocess(),
     mdsvex({
       extensions: ['.md'],
