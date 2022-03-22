@@ -27,7 +27,7 @@
     <ProjectList {projects} />
     <button
       class="primary"
-      on:click={() => (window.location.href = '/projects')}
+      on:click={() => (location.href = '/projects')}
     >
       View All
     </button>
