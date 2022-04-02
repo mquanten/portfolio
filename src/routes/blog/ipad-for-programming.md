@@ -37,3 +37,5 @@ You might be thinking, how on earth could I a programmer use an artists tool lik
 ## Conclusion 
 
 The iPad is a powerful and portable device that allows you to get all manners of task ranging music production to web development and is highly worth a purchase.
+
+_Featured image courtesy of [Josh Sorensen](https://www.pexels.com/photo/silver-ipad-1334598/)_
