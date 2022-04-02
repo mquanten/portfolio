@@ -5,9 +5,10 @@
 <svelte:head>
   <title>{title} | Mac</title>
   <meta name="description" content={snippet} />
+  <meta property="og:title" content={`${title} | Mac`}/>
   <meta property="og:description" content={snippet} />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content={'../blog/${cover}'} />
+  <meta property="og:image" content={`../blog/${cover}`} />
   <meta property="og:article:published_time" content={date} />
   <meta property="og:article:section" content="Blog" />
   <meta property="og:article:author:first_name" content="Mac" />
