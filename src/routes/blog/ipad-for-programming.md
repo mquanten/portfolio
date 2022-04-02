@@ -1,7 +1,7 @@
 ---
 title: Using an iPad for Programming
 date: '02.04.22'
-cover: 'https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+cover: 'ipad-programming.jpg'
 snippet: The iPad is an excellent media consumption device however thanks to some new tools it has become an incredible device for programming.
 tags: ['programming', 'ipad', 'codespaces', 'swift']
 ---
