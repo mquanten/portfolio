@@ -19,7 +19,7 @@
 <article
   class="relative flex flex-col items-center p-4 mx-auto prose max-w-prose"
 >
-  <a href="/blog" class="absolute top-0 left-0 py-1 pl-3 cursor-pointer">
+  <a href="/blog" class="absolute top-0 left-0 py-1 pl-3 cursor-pointer" aria-label='back to main blog post page'>
     <svg
       class="w-6 h-6"
       fill="none"
