@@ -38,7 +38,7 @@
   }
  .links-list {
    @apply flex flex-col items-center mt-4 space-y-2 p-0 m-0 list-none;
-   &li {
+   &>li {
      @apply px-4 w-[250px] py-2 bg-slate-100 rounded-lg shadow-lg;
    }
  }
