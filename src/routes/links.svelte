@@ -22,7 +22,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="px-4 w-[200px] py-2 bg-slate-100 rounded-lg shadow-lg">
+      <li class="px-4 w-[250px] py-2 bg-slate-100 rounded-lg shadow-lg">
         Nothing Special
       </li>
     </a>
