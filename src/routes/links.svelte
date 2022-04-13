@@ -13,7 +13,7 @@
   />
   <div class="flex flex-col space-y-2 max-w-[250px]">
     <h1 class="m-0">Mac</h1>
-    <p>Hey I'm Mac musician, developer and skater. Check out my links below.</p>
+    <p>Hey I'm Mac musician, developer and skater. Check out all of my links below.</p>
   </div>
   <ul class="flex flex-col items-center mt-4 space-y-2 p-0 m-0 list-none">
     <a
