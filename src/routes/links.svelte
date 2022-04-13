@@ -15,14 +15,14 @@
     <h1 class="m-0">Mac</h1>
     <p>Hey I'm Mac musician, developer and skater. Check out all of my links below.</p>
   </div>
-  <ul class="flex flex-col items-center mt-4 space-y-2 p-0 m-0 list-none">
+  <ul class="links-list">
     <a
       href="https://hyperfollow.com/nothingspecial9"
       target="_blank"
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="px-4 w-[250px] py-2 bg-slate-100 rounded-lg shadow-lg">
+      <li class="item">
         Nothing Special
       </li>
     </a>
@@ -32,7 +32,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="px-4 w-[250px] py-2 bg-slate-100 rounded-lg shadow-lg">
+      <li class="item">
         Portfolio
       </li>
     </a>
@@ -42,7 +42,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="px-4 w-[250px] py-2 bg-slate-100 rounded-lg shadow-lg">
+      <li class="item">
         Blog
       </li>
     </a>
@@ -52,7 +52,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="px-4 w-[250px] py-2 bg-slate-100 rounded-lg shadow-lg">
+      <li class="item">
         TikTok
       </li>
     </a>
