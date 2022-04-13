@@ -5,7 +5,7 @@
   import Instagram from 'svelte-icons/fa/FaInstagram.svelte'
 </script>
 
-<div class="py-8 flex flex-col items-center text-center prose">
+<div class="py-8 max-h-screen flex flex-col items-center justify-center text-center prose">
   <img
     src="links.jpeg"
     alt="Mac's avatar"
