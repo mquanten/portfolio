@@ -48,7 +48,7 @@
         {/each}
         <li class="flex items-center justify-start pl-1 mt-4">
           <a
-            href="https://github.com/mquanten"
+            href="https://github.com/mac-h95"
             class="mr-3"
             aria-label="GitHub"
           >
@@ -98,7 +98,7 @@
       <p class="mt-2">Blazing fast websites.</p>
       <p>Copyright © {year}</p>
       <div class="flex items-center mt-2 space-x-4">
-        <a href="https://github.com/mquanten" aria-label="GitHub">
+        <a href="https://github.com/mac-h95" aria-label="GitHub">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class=""
