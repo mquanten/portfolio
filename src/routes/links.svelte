@@ -11,7 +11,7 @@
     alt="Mac's avatar"
     class="w-32 h-32 bg-primary-500 rounded-full shadow-lg"
   />
-  <div class="flex flex-col space-y-2 max-w-lg">
+  <div class="flex flex-col space-y-2 max-w-[200px]">
     <h1 class="m-0">Mac</h1>
     <p>Hey I'm Mac musician, developer and skater. Check out my links below.</p>
   </div>
