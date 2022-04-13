@@ -64,12 +64,12 @@
     <a href="mailto:mac.develops@icloud.com" class="icon">
       <Envelope />
     </a>
-    <a class="icon" href="https://instagram.com/machooper">
+    <a class="icon" href="https://instagram.com/mac.h95">
       <Instagram />
     </a>
     <a
       class="icon"
-      href="https://www.snapchat.com/add/maclong95?share_id=OUNDRDI2RjktODk0Qy00NjZBLUE0MUYtRDVFMzg2NTUxMUM3&locale=en_GB"
+      href="https://www.snapchat.com/add/mac.h95"
     >
       <Snapchat />
     </a>
