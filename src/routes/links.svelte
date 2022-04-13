@@ -22,7 +22,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="item">
+      <li>
         Nothing Special
       </li>
     </a>
@@ -32,7 +32,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="item">
+      <li>
         Portfolio
       </li>
     </a>
@@ -42,7 +42,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="item">
+      <li>
         Blog
       </li>
     </a>
@@ -52,7 +52,7 @@
       rel="noopener noreferrer"
       class="no-underline"
     >
-      <li class="item">
+      <li>
         TikTok
       </li>
     </a>
