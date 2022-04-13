@@ -58,7 +58,7 @@
     </a>
   </ul>
   <div class="flex flex-wrap justify-center space-x-2 mt-4 items-center">
-    <a href="https://github.com/mquanten" class="icon">
+    <a href="https://github.com/mac-h95" class="icon">
       <Github />
     </a>
     <a href="mailto:mac.develops@icloud.com" class="icon">
