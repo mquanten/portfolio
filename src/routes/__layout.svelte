@@ -9,14 +9,14 @@
   <slot />
 {:else}
   <header
-    class="flex items-center justify-between px-4 py-6 md:px-12 2xl:px-96"
+    class="flex items-center justify-between px-4 py-6 md:px-12 2xl:px-56 large:pb-16"
   >
     <Logo />
     <nav class="relative group">
       <button class="menu" aria-label="menu button">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="w-6 h-6"
+          class="w-6 h-6 large:w-12 large:h-12"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -47,11 +47,7 @@
           </li>
         {/each}
         <li class="flex items-center justify-start pl-1 mt-4">
-          <a
-            href="https://github.com/mac-h95"
-            class="mr-3"
-            aria-label="GitHub"
-          >
+          <a href="https://github.com/mac-h95" class="mr-3" aria-label="GitHub">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class=""
