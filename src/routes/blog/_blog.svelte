@@ -5,7 +5,7 @@
 <svelte:head>
   <title>{title} | Mac</title>
   <meta name="description" content={snippet} />
-  <meta property="og:title" content={`${title} | Mac`}/>
+  <meta property="og:title" content={`${title} | Mac`} />
   <meta property="og:description" content={snippet} />
   <meta property="og:type" content="article" />
   <meta property="og:image" content={`/blog/${cover}`} />
@@ -15,12 +15,16 @@
   <meta property="og:article:author:username" content="Mac9" />
   <meta property="og:article:author:gender" content="Male" />
   <meta property="og:article:tag" content={tags} />
-  <link rel='preload' as='image' href={cover} />
+  <link rel="preload" as="image" href={cover} />
 </svelte:head>
 <article
-  class="relative flex flex-col items-center p-4 mx-auto prose max-w-prose"
+  class="relative flex flex-col items-center p-4 mx-auto prose max-w-prose large:max-w-5xl"
 >
-  <a href="/blog" class="absolute top-0 left-0 py-1 pl-3 cursor-pointer" aria-label='back to main blog post page'>
+  <a
+    href="/blog"
+    class="absolute top-0 left-0 py-1 pl-3 cursor-pointer"
+    aria-label="back to main blog post page"
+  >
     <svg
       class="w-6 h-6"
       fill="none"
