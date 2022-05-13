@@ -2,6 +2,9 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      screens: {
+        'large': '3200px',
+      },
       colors: {
         primary: {
           100: '#ccebf5',
@@ -39,7 +42,8 @@ module.exports = {
       },
       FontFamily: {
         sans: ['Inter']
-      }
+      },
+
     }
   },
   plugins: [

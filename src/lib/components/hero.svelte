@@ -2,7 +2,7 @@
   import HeroImage from './hero-image.svelte'
 </script>
 
-<div class="container mx-0">
+<div class="container mx-auto max-w-[80%]">
   <div
     class="flex items-center justify-center text-center md:justify-around md:w-5/6 md:text-left"
   >

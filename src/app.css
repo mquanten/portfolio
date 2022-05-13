@@ -46,7 +46,7 @@
 @layer base {
   html,
   body {
-    @apply overflow-x-hidden text-primary-900 bg-zinc-50;
+    @apply overflow-x-hidden text-primary-900 bg-zinc-50 large:text-xl;
   }
   h1,
   h2,
