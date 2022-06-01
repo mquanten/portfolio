@@ -1,19 +1,19 @@
 <script context="module">
   export const load = async ({ fetch }) => {
-    const documents = await fetch('/api/abrasion.json')
-    const allDocuments = await documents.json()
+    const documents = await fetch("/api/abrasion.json");
+    const allDocuments = await documents.json();
 
     return {
       props: {
-        documents: allDocuments
-      }
-    }
-  }
+        documents: allDocuments,
+      },
+    };
+  };
 </script>
 
 <script>
-  import DocumentList from '$lib/components/document-list.svelte'
-  export let documents
+  import DocumentList from "$lib/components/document-list.svelte";
+  export let documents;
 </script>
 
 <svelte:head>
@@ -26,10 +26,7 @@
     my design documentation and keep up to date with the progress by clicking
     the button below.
   </p>
-  <button
-    class="primary"
-    on:click={() => (location.href = '/projects/abrasion/Design')}
-  >
+  <button class="primary" on:click={() => (location.href = "./Design")}>
     Game Design Documents
   </button>
   <DocumentList {documents} />
