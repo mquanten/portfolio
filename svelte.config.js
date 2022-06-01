@@ -18,7 +18,8 @@ export default {
       remarkPlugins: [relativeImages],
       layout: {
         projects: 'src/routes/projects/_project.svelte',
-        blog: 'src/routes/blog/_blog.svelte'
+        blog: 'src/routes/blog/_blog.svelte',
+	abrasion: 'src/routes/projects/abrasion/_project.svelte',
       }
     })
   ]
