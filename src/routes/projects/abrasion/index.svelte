@@ -28,7 +28,7 @@
   </p>
   <button
     class="primary"
-    on:click={() => (location.href = '/projects/abrasion/Index')}
+    on:click={() => (location.href = '/projects/abrasion/Design')}
   >
     Game Design Documents
   </button>
