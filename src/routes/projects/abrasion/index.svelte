@@ -26,7 +26,10 @@
     my design documentation and keep up to date with the progress by clicking
     the button below.
   </p>
-  <button class="primary" on:click={() => (location.href = "./Design")}>
+  <button
+    class="primary"
+    on:click={() => (location.href = "/projects/abrasion/Index")}
+  >
     Game Design Documents
   </button>
   <DocumentList {documents} />
