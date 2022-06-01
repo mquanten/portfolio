@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b0b9d01090ade9cc",
@@ -90,7 +91,14 @@
   "active": "3459e696a07410ec",
   "lastOpenFiles": [
     "Index.md",
-    "Animation.md",
-    "Art Assets.md"
+    "Art Assets.md",
+    "User Interface.md",
+    "Tight Controls.md",
+    "Soundtrack.md",
+    "Sound Effects.md",
+    "Shop.md",
+    "Publish.md",
+    "Polishing.md",
+    "Map Outline.md"
   ]
 }

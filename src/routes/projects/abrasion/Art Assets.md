@@ -8,6 +8,14 @@ The games art should draw inspiration from Disney cartoons, with exaggerated fea
 
 ---
 
+## Color Scheme
+Find a good selection of colors to use when creating art assets for the game.
+
+---
+
+## Mood Boards
+Create at least one mood board for each character, including all bosses.
+
 ## Assets Needed
 - [ ] Dens
 - [ ] Rooms

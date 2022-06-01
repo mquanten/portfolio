@@ -23,12 +23,10 @@ __Target Audience__:
 
 ---
 
-
 ## Concept Sketch
 (WIP).
 
 ---
-
 
 ## Features
 - Tight, skill rewarding platform controls.
@@ -41,12 +39,10 @@ __Target Audience__:
 
 ---
 
-
 ## Accessibility
 - Assist settings to slow down, enable extra dashes and jumps so that people who are less into platform games can play.
 
 ---
-
 
 ## Timeline
 |     | Milestone                          | Date |
@@ -65,7 +61,6 @@ __Target Audience__:
 | 12  | [Publish](Publish)                 |  Estimate: 31.09    |
 
 ---
-
 
 ## Backlog Features
 To be completed if I find time, or if funding goes well and people want these features. Possible to add as a future release.
@@ -89,6 +84,7 @@ To be completed if I find time, or if funding goes well and people want these fe
 [Thomas Brush](https://www.youtube.com/watch?v=LAzaateh9q4&list=WL&index=15&t=2s)
 
 [Noodle](https://www.youtube.com/watch?v=yLd5wmBNCBM)
+
 
 ### Inspirations
 [Celeste for Movement](http://www.celestegame.com)
