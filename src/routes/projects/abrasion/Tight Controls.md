@@ -6,7 +6,7 @@ layout: document
 
 ## Details
 The game will feature proven platform game movement controls included in games like Celeste, these features include:
-	- [ ] Increase velocity on turn
+	- [x] Increase velocity on turn
 	- [ ] Variable jump height
 	- [ ] Apex modifiers
 	- [ ] Jump buffering
@@ -17,7 +17,7 @@ The game will feature proven platform game movement controls included in games l
 ---
 
 ## Control Scheme
-- [ ] Walk
+- [x] Walk
 - [ ] Jump
 - [ ] Double Jump
 - [ ] Dash
