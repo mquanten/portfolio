@@ -16,7 +16,7 @@ __Available on__: Mobile, Console, Desktop.
 In this game users will take on the role of _Dens_ a tooth trying to get back to his mouth after having to be removed due to eating too many sweets and cakes. On his way home he patches himself up with fillings and toothpaste while fighting his way through the minions of various sweet treat manufacturers utilising his trusty toothbrush and swinging from platform to platform with his floss.
 
 
-The target audience for this game include:
+__Target Audience__:
 - Gamers of all ages.
 
 ---
@@ -49,18 +49,18 @@ The target audience for this game include:
 ## Timeline
 |     | Milestone                          | Date |
 | --- | ---------------------------------- | ---- |
-| 1   | [Tight Controls](Tight%20Controls) |      |
-| 2   | [User Interface](User%20Interface) |      |
-| 3   | [Combat](Combat)                   |      |
-| 4   | [Shop](Shop)                       |      |
-| 5   | [Map Outline](Map%20Outline)       |      |
-| 6   | [Art Assets](Art%20Assets)         |      |
-| 7   | [Animation](Animation)             |      |
-| 8   | [Sound Effects](Sound%20Effects)   |      |
-| 9   | [Soundtrack](Soundtrack)           |      |
-| 10  | [Polishing](Polishing)             |      |
-| 11  | [Funding](Funding)                 |      |
-| 12  | [Publish](Publish)                 |      |
+| 1   | [Tight Controls](Tight%20Controls) |  01.06.22    |
+| 2   | [User Interface](User%20Interface) |   02.06.22   |
+| 3   | [Combat](Combat)                   |  04.06.22    |
+| 4   | [Shop](Shop)                       |    06.06.22  |
+| 5   | [Map Outline](Map%20Outline)       |     08.08.22 |
+| 6   | [Art Assets](Art%20Assets)         |    12.08.22  |
+| 7   | [Animation](Animation)             |    14.08.22  |
+| 8   | [Sound Effects](Sound%20Effects)   | 18.08.22     |
+| 9   | [Soundtrack](Soundtrack)           |   31.08.22   |
+| 10  | [Polishing](Polishing)             |  Release    |
+| 11  | [Funding](Funding)                 |   Release   |
+| 12  | [Publish](Publish)                 |  Release    |
 
 ---
 
