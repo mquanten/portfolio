@@ -11,4 +11,4 @@ Mirrors are a collectible currency and will be displayed as an integer with an i
 > Note: I may consider removing the Mirrors system in favour of a purely discovery based upgrade system.
 
 # Map 
-The user will be able to press the <kbd>Select</kbd> or <kbd>Tab</kbt> button to bring up a map of the game, displaying sections they have previously visited. I considered adding a minmap in the top right akin to Hollow Knight however I prefer the more cinematic views with a very minimal user interface as seen in Ori.
+The user will be able to press the <kbd>Select</kbd> or <kbd>Tab</kbd> button to bring up a map of the game, displaying sections they have previously visited. I considered adding a minmap in the top right akin to Hollow Knight however I prefer the more cinematic views with a very minimal user interface as seen in Ori.
