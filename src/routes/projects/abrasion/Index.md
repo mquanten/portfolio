@@ -10,6 +10,8 @@ __Type__: Video Game.
 
 __Available on__: Mobile, Console, Desktop.
 
+__Development Start__: 01.06.2022
+
 ---
 
 ## Pitch
@@ -60,7 +62,7 @@ __Target Audience__:
 | 9   | [Soundtrack](Soundtrack)           |   31.08.22   |
 | 10  | [Polishing](Polishing)             |  Release    |
 | 11  | [Funding](Funding)                 |   Release   |
-| 12  | [Publish](Publish)                 |  Release    |
+| 12  | [Publish](Publish)                 |  Estimate: 31.09    |
 
 ---
 
