@@ -1,13 +1,13 @@
-import adapter from '@sveltejs/adapter-auto'
+import vercel from '@sveltejs/adapter-vercel';
 import image from 'svelte-image'
-import {mdsvex} from 'mdsvex'
+import { mdsvex } from 'mdsvex'
 import relativeImages from 'mdsvex-relative-images'
 import preprocess from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
   kit: {
-    adapter: adapter()
+    adapter: vercel()
   },
   extensions: ['.svelte', '.md'],
   preprocess: [
@@ -19,7 +19,7 @@ export default {
       layout: {
         projects: 'src/routes/projects/_project.svelte',
         blog: 'src/routes/blog/_blog.svelte',
-	      document: 'src/routes/projects/abrasion/_document.svelte'
+        document: 'src/routes/projects/abrasion/_document.svelte'
       }
     })
   ]
