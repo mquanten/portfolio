@@ -1,9 +1,9 @@
 ---
-title: Abrasion Shop
-tags: Abrasion
+title: Shop
+tags: ['abrasion']
+layout: document
 ---
-[[Index|Back to index]]
-# Upgrades
+## Upgrades
 In the shop the player should be able to buy upgrades that increase their damage, health and more.
 
 > [!NOTE] Removing the shop?

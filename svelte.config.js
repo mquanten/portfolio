@@ -19,7 +19,7 @@ export default {
       layout: {
         projects: 'src/routes/projects/_project.svelte',
         blog: 'src/routes/blog/_blog.svelte',
-	abrasion: 'src/routes/projects/abrasion/_project.svelte',
+	      document: 'src/routes/projects/abrasion/_document.svelte'
       }
     })
   ]

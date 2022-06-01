@@ -1,10 +1,10 @@
 ---
-title: Abrasion Controls
-tags: Abrasion
+title: Controls
+tags: ['abrasion']
+layout: document
 ---
-[[Index|Back to index]]
-# Details
 
+## Details
 The game will feature proven platform game movement controls included in games like Celeste, these features include:
 	- Variable jump height
 	- Apex modifiers
@@ -13,7 +13,9 @@ The game will feature proven platform game movement controls included in games l
 	- Clamped fall speed
 	- Edge detection
 
-# Control Scheme
+---
+
+## Control Scheme
 - [ ] Walk
 - [ ] Jump
 - [ ] Double Jump

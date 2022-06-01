@@ -1,12 +1,14 @@
 ---
-title: Abrasion Sound Effects
-tags: Abrasion
+title: Sound Effects
+tags: ['abrasion']
+layout: document
 ---
-[[Index|Back to index]]
-# Feel
-The animations should add to the classic cartoon vibe with fun noises on jumps, attacks and more.
+## Feel
+Just like the animations, the sound effects should add to the classic cartoon vibe with fun noises on jumps, attacks and more.
 
-# Sounds Needed
+---
+
+## Sounds Needed
 - [ ] Character
 	- [ ] Jump
 	- [ ] Dash

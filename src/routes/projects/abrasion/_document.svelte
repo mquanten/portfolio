@@ -1,5 +1,5 @@
 <script>
-  export let title
+  export let title = 'Abrasion | Mac'
 </script>
 
 <svelte:head>
@@ -13,7 +13,10 @@
 <article
   class="relative flex flex-col items-center p-4 mx-auto prose max-w-prose"
 >
-  <a href="/projects" class="absolute top-0 left-0 py-1 pl-3 cursor-pointer">
+  <a
+    href="/projects/abrasion/Index"
+    class="absolute top-0 left-0 py-1 pl-3 cursor-pointer"
+  >
     <svg
       class="w-6 h-6"
       fill="none"
@@ -31,14 +34,7 @@
   <section id="header" class="flex flex-col items-start justify-start md:p-4">
     <h1 class="m-0">{title}</h1>
   </section>
-  <section id="content" class="md:p-4">
+  <section class="prose">
     <slot />
-    <p>Thanks for reading this post.</p>
-    <div class="flex flex-col items-start space-y-2">
-      <h2>Mac</h2>
-      <a href="/projects" class="link text-primary-700 no-underline">
-        View more projects</a
-      >
-    </div>
   </section>
 </article>

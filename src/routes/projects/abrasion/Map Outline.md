@@ -1,16 +1,20 @@
 ---
-title: Abrasion Map
-tags: Abrasion
+title: Map
+tags: ['abrasion']
+layout: document
 ---
-[[Index|Back to index]]
-# Details
+## Details
 Abrasion will feature a large interconnected map akin to games like Hollow Knight, this design favours exploration and conveys a sense of progression by locking areas until the player has found skills or items that will help them through that obstacle. This is a very rewarding system.
 
-# Outline
-To start with I will create an outline of the map, with each room connected by a door, slope or tunnel system. I will also add icons displaying key areas and items such as boss fights and skills that will help the player through a section. 
+---
+
+## Outline
+To start with I will create an outline of the map, with each room connected by a door, slope or tunnel system. I will also add icons displaying key areas and items such as boss fights and skills that will help the player through a section.
 
 > [!NOTE]
 > I will add the outline below upon completion.
+
+---
 
 # Key Points
 I need to ensure that the player is guided invisibly through the levels, for example if a player has just found an item to help them through an obstacle the path should naturally lead them back in that direction. A good timeline is key to a fun progression throughout the game.

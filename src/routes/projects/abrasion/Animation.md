@@ -1,9 +1,9 @@
 ---
-title: Abrasion Animation
-tags: Abrasion
+title: Animation
+tags: ['abrasion']
+layout: document
 ---
-[[Index|Back to index]]
-# Required Animations
+## Required Animations
 - [ ] Character
 	- [ ] Run
 	- [ ] Jump

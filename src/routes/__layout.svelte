@@ -1,7 +1,7 @@
 <script>
   import { page } from '$app/stores'
   import Logo from '$lib/components/logo.svelte'
-  import '../app.css'
+  import '$lib/app.css'
   let year = new Date().getFullYear()
 </script>
 
