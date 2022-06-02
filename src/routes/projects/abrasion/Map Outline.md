@@ -22,3 +22,5 @@ I need to ensure that the player is guided invisibly through the levels, for exa
 It is important to ensure that all rooms feel unique and more importantly that each zone feels very different from the last.
 
 The terrain should blend nicely between sections, for example if you have a tunnel system going from the cave section to the lava section, reflect this in the environment with more cracks in the rocks and heat lines starting to show. You can also do this from a water section to a grass section showing the ground getting wetter.
+
+Ensure that the rooms adapt to the players new abilities, there is no point having a room with a wall jump that can be double jumped up, if you give the player a new ability then make sure they need to use it.
