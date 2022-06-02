@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3459e696a07410ec",
+        "id": "c6e683ac615ffde5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tight Controls.md",
+            "file": "Design.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tight Controls.md",
+                "file": "Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3459e696a07410ec",
+  "active": "c6e683ac615ffde5",
   "lastOpenFiles": [
-    "Tight Controls.md",
     "Design.md",
+    "Tight Controls.md",
     "Art Assets.md",
     "User Interface.md",
     "Soundtrack.md",
