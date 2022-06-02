@@ -21,7 +21,7 @@ The game will feature proven platform game movement controls included in games l
 - [x] Jump
 - [x] Double Jump
 - [x] Crouch
-- [ ] Dash
+- [x] Dash
 - [ ] Wall Jump
 - [ ] Floss Grapple
 
