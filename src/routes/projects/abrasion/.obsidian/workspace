@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design.md",
+            "file": "User Interface.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design.md",
+                "file": "User Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,11 +90,11 @@
   },
   "active": "c6e683ac615ffde5",
   "lastOpenFiles": [
-    "Design.md",
-    "Art Assets.md",
-    "Tight Controls.md",
-    "Map Outline.md",
     "User Interface.md",
+    "Design.md",
+    "Tight Controls.md",
+    "Art Assets.md",
+    "Map Outline.md",
     "Soundtrack.md",
     "Sound Effects.md",
     "Shop.md",

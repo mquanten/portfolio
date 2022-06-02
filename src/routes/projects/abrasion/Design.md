@@ -27,8 +27,7 @@ In this game users will take on the role of _Dens_ a tooth trying to get back to
 ---
 
 ## Concept Sketch
-
-(WIP).
+![](Dens.jpg)
 
 ---
 
@@ -54,7 +53,7 @@ In this game users will take on the role of _Dens_ a tooth trying to get back to
 
 |     | Milestone                          | Date            | Done |
 | --- | ---------------------------------- | --------------- | ---- |
-| 1   | [Tight Controls](Tight%20Controls) | 02.06.22        |     |
+| 1   | [Tight Controls](Tight%20Controls) | 02.06.22        |  ✅   |
 | 2   | [User Interface](User%20Interface) | 02.06.22        |      |
 | 3   | [Combat](Combat)                   | 04.06.22        |      |
 | 4   | [Shop](Shop)                       | 06.06.22        |      |
@@ -73,8 +72,9 @@ In this game users will take on the role of _Dens_ a tooth trying to get back to
 
 To be completed if I find time, or if funding goes well and people want these features. Possible to add as a future release.
 
-- 2 Extra playable characters. Incy and Cane.
-- Mobile release.
+- [ ] Floss Grapple
+- [ ] 2 Extra playable characters. Incy and Cane.
+- [ ] Mobile release.
 
 ---
 
