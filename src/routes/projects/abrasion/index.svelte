@@ -32,7 +32,6 @@
   >
     Game Design Documents
   </button>
-  <div class="flex justify-center flex-wrap mx-auto">
-    <DocumentList {documents} />
-  </div>
+
+  <DocumentList {documents} />
 </div>
