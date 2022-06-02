@@ -9,7 +9,7 @@ The game will feature proven platform game movement controls included in games l
 	- [x] Increase velocity on turn
 	- [x] Variable jump height
 	- [ ] Jump buffering
-	- [ ] Coyote time
+	- [x] Coyote time
 	- [ ] Clamped fall speed
 	- [ ] Edge detection
 	- [ ] Apex modifiers
