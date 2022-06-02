@@ -8,7 +8,7 @@ layout: document
 The game will feature proven platform game movement controls included in games like Celeste, these features include:
 	- [x] Increase velocity on turn
 	- [x] Variable jump height
-	- [ ] Jump buffering
+	- [x] Jump buffering
 	- [x] Coyote time
 	- [ ] Clamped fall speed
 	- [ ] Edge detection
