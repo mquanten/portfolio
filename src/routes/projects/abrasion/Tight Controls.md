@@ -12,15 +12,15 @@ The game will feature proven platform game movement controls included in games l
 	- [x] Coyote time
 	- [x] Clamped fall speed
 	- [x] Edge detection
-	- [ ] Apex modifiers 
+	- [x] Apex modifiers 
 
 ---
 
 ## Actions
 - [x] Walk
 - [x] Jump
+- [x] Double Jump
 - [ ] Crouch
-- [ ] Double Jump
 - [ ] Dash
 - [ ] Floss Grapple
 
