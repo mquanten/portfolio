@@ -54,7 +54,7 @@ In this game users will take on the role of _Dens_ a tooth trying to get back to
 
 |     | Milestone                          | Date            | Done |
 | --- | ---------------------------------- | --------------- | ---- |
-| 1   | [Tight Controls](Tight%20Controls) | 01.06.22        |     |
+| 1   | [Tight Controls](Tight%20Controls) | 02.06.22        |     |
 | 2   | [User Interface](User%20Interface) | 02.06.22        |      |
 | 3   | [Combat](Combat)                   | 04.06.22        |      |
 | 4   | [Shop](Shop)                       | 06.06.22        |      |
