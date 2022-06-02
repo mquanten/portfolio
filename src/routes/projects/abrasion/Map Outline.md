@@ -24,3 +24,12 @@ It is important to ensure that all rooms feel unique and more importantly that e
 The terrain should blend nicely between sections, for example if you have a tunnel system going from the cave section to the lava section, reflect this in the environment with more cracks in the rocks and heat lines starting to show. You can also do this from a water section to a grass section showing the ground getting wetter.
 
 Ensure that the rooms adapt to the players new abilities, there is no point having a room with a wall jump that can be double jumped up, if you give the player a new ability then make sure they need to use it.
+
+# Platform Design
+I plan to make a variety of platforms, each in different shapes with these I should be able to build levels as though they are little puzzles. I can create uniques shapes for certain rooms if I feel they need them.
+
+Each platform should be a prefab consisting of:
+	- Body
+	- Ground
+	- Ceiling
+	- Walls (if slideable)
