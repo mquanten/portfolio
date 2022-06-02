@@ -32,6 +32,5 @@
   >
     Game Design Documents
   </button>
-
   <DocumentList {documents} />
 </div>

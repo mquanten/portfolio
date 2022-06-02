@@ -3,7 +3,7 @@
   export let documents;
 </script>
 
-<div class="flex flex-col items-center flex-wrap">
+<div class="flex flex-col flex-wrap items-center w-screen">
   {#each documents as document}
     <Document {...document.meta} path={document.path} />
   {/each}
