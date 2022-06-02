@@ -23,6 +23,7 @@ Create at least one mood board for each character, including all bosses.
 - [ ] Bosses
 - [ ] Teeth for health
 - [ ] Mirrors
+- [ ] Dentist Scalpels
 - [ ] Menu decorations
 - [ ] Level Props
 

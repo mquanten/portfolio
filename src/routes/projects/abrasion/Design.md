@@ -18,7 +18,7 @@ layout: document
 
 ## Pitch
 
-In this game users will take on the role of _Dens_ a tooth trying to get back to his mouth after having to be removed due to eating too many sweets and cakes. On his way home he patches himself up with fillings and toothpaste while fighting his way through the minions of various sweet treat manufacturers utilising his trusty toothbrush and swinging from platform to platform with his floss.
+In this game users will take on the role of _Dens_ a tooth trying to get back to his mouth after having to be removed due to eating too many sweets and cakes. On his way home he patches himself up with fillings and toothpaste while fighting his way through the minions of various sweet treat manufacturers utilising his trusty toothbrush and swinging from platform to platform with his floss hooked into dentist scalpels.
 
 **Target Audience**:
 
