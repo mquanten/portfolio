@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Map Outline.md",
+            "file": "Tight Controls.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Map Outline.md",
+                "file": "Tight Controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,8 +90,8 @@
   },
   "active": "c6e683ac615ffde5",
   "lastOpenFiles": [
-    "Map Outline.md",
     "Tight Controls.md",
+    "Map Outline.md",
     "Design.md",
     "Art Assets.md",
     "User Interface.md",
