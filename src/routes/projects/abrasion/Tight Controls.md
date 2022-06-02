@@ -11,7 +11,7 @@ The game will feature proven platform game movement controls included in games l
 	- [x] Jump buffering
 	- [x] Coyote time
 	- [x] Clamped fall speed
-	- [ ] Edge detection
+	- [ ] Edge detection - WIP
 	- [ ] Apex modifiers
 
 ---
