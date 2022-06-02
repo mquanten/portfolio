@@ -18,7 +18,7 @@ The game will feature proven platform game movement controls included in games l
 
 ## Actions
 - [x] Walk
-- [ ] Jump
+- [x] Jump
 - [ ] Crouch
 - [ ] Double Jump
 - [ ] Dash
