@@ -10,9 +10,36 @@ The health will be stored as teeth, starting the game with 3 teeth. Upon taking 
 
 ## Mirrors
 Mirrors are a collectible currency and will be displayed as an integer with an icon next to them. This should be hidden unless you pick up some mirrors or are in a shop.
-> Note: I may consider removing the Mirrors system in favour of a purely discovery based upgrade system.
+
+> [!QUESTION] Animated mirrors?
+> Should the mirrors fly up towards the UI on pickup?
+
+
 
 ---
 
 ## Map
 The user will be able to press the <kbd>Select</kbd> or <kbd>Tab</kbd> button to bring up a map of the game, displaying sections they have previously visited. I considered adding a minmap in the top right similar to Hollow Knight however I prefer the more cinematic views with a very minimal user interface as seen in Ori.
+
+---
+
+# Pause Menu
+The pause menu should darken the game screen, with a minimal centered container with rounded corners, this container should contain a title with the word Pause at the top of the game the options:
+	- Resume Button
+	- Settings
+		- Resolution
+		- Full Screen
+		- Volume Mixer
+		- Controls
+	- Main Menu
+	- Quit Game
+
+---
+
+# Fonts
+What font should I use for the game? What kind of font would fit this game? 
+
+---
+
+# Colors
+What's a good color scheme for the design? Build the UI in noir colors first and then add a small amount of color to accent options.
