@@ -25,6 +25,7 @@ Create at least one mood board for each character, including all bosses.
 - [ ] Dentist Scalpels
 - [ ] Menu decorations
 - [ ] Skull
+- [ ] Clock
 - [ ] Level Props
 
 > [!QUESTION] Bush destruction?
