@@ -77,6 +77,7 @@ To be completed if I find time, or if funding goes well and people want these fe
 - [ ] Mobile release.
 - [ ] Skill Tree 
 - [ ] Extra abilites, time stopping and others? - This is a maybe.
+- [ ] Cloud Save?
 
 ---
 
