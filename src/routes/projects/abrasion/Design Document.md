@@ -74,6 +74,8 @@ To be completed if I find time, or if funding goes well and people want these fe
 - [ ] Floss Grapple
 - [ ] 2 Extra playable characters. Incy and Cane.
 - [ ] Mobile release.
+- [ ] Skill Tree 
+- [ ] Extra abilites, time stopping and others? - This is a maybe.
 
 ---
 
