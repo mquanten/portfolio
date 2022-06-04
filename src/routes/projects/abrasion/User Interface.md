@@ -58,12 +58,7 @@ The pause menu should darken the game screen, with a minimal centered container 
 ---
 
 # Fonts
-What font should I use for the game? What kind of font would fit this game? A simple sans-serif font, most similar to Ori of the games on the Moodboard, create drafts with the following fonts:
-	- Inter
-	- Lato
-	- Open Sans
-	- Oswald
-	- Raleway
+I have decided on __Oswald__ as the font for the game.
 
 ---
 
