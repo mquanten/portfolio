@@ -7,6 +7,9 @@ layout: document
 ## Health
 The health will be stored as teeth, starting the game with 3 teeth. Upon taking a hit the tooth will crumble and fall out of the container, leaving an outline in its place. I have chosen this method over a health bar as it gives the player immediate feedback on how much damage they can take.
 
+> [!QUESTION] Hiding when not in combat?
+> Is this a good idea or is it better to have a constant view on your health even when enemies aren't around?
+
 ---
 
 ## Mirrors
@@ -14,6 +17,9 @@ Mirrors are a collectible currency and will be displayed as an integer with an i
 
 > [!QUESTION] Animated mirrors?
 > Should the mirrors fly up towards the UI on pickup?
+
+## Previews
+Make sure that certain abilities or button presses contain previews which will show how the ability will play out, i.e. a visual indicator of where an item will be thrown.
 
 ---
 
