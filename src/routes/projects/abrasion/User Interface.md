@@ -10,10 +10,8 @@ The health will be stored as teeth, starting the game with 3 teeth. Upon taking 
 > [!QUESTION] Hiding when not in combat?
 > Is this a good idea or is it better to have a constant view on your health even when enemies aren't around?
 
----
-
 ## Mirrors
-Mirrors are a collectible currency and will be displayed as an integer with an icon next to them. This should be hidden unless you pick up some mirrors or are in a shop.
+Mirrors are a collectible currency and will be displayed as an integer with an icon next to them. This should be hidden unless you pick up some mirrors or are in a shop. I might remove the currency entirely and have abilities and upgrades be entirely discovery based. I can always add a currency based system to a different game, however I like the simplicity of a fully discovery driven upgrade system as opposed to creating grindy moments where the player has to save up for an item.
 
 > [!QUESTION] Animated mirrors?
 > Should the mirrors fly up towards the UI on pickup?
@@ -21,15 +19,13 @@ Mirrors are a collectible currency and will be displayed as an integer with an i
 ## Previews
 Make sure that certain abilities or button presses contain previews which will show how the ability will play out, i.e. a visual indicator of where an item will be thrown.
 
+## Tips
+Tool tips should be worked into the world either via signs or in game objects that have hints of what the button could be or characters in the scene saying the tips.
+
 ---
 
 # Map
-The user will be able to press the <kbd>Select</kbd> or <kbd>Tab</kbd> button to bring up a map of the game, displaying sections they have previously visited. I considered adding a minmap in the top right similar to Hollow Knight however I prefer the more cinematic views with a very minimal user interface as seen in Ori.
-
---- 
-
-# Title Screen
-Should be either non existant and jump straight to the menu or should have a nice screen with a large title and just a press <kbd>A</kbd>/<kbd>X</kbd>/<kbd>Enter</kbd> dependant on system.
+The user will be able to press the <kbd>Select</kbd> or <kbd>Tab</kbd> button to bring up a map of the game, displaying sections they have previously visited. I considered adding a minmap in the top right similar to Hollow Knight however I prefer the more cinematic views with a very minimal user interface as seen in Ori, if playtesters would prefer a minimap and they find the game too hard to navigate without one I will add a minimap.
 
 ---
 
@@ -55,6 +51,9 @@ The pause menu should darken the game screen, with a minimal centered container 
 		- Controls
 	- Main Menu
 	- Quit Game
+
+> [!NOTE] Celeste's Pause Menu
+> I like the simplicity of Celeste's pause menu and may actually consider removing the rounded container background of the pause menu. I will draft one with and one without.
 
 ---
 
