@@ -43,11 +43,13 @@ The main menu should have a large title and a menu with minimal options:
 # Pause Menu
 The pause menu should darken the game screen, with a minimal centered container with rounded corners, this container should contain a title with the word Pause at the top of the game the options:
 	- Resume Button
-	- Save/Load
 	- Settings
 		- Resolution
 		- Full Screen
 		- Volume Mixer
+		- Vibration
+		- Brightness
+		- Contrast
 		- Controls
 	- Main Menu
 	- Quit Game
@@ -66,6 +68,8 @@ I have decided on __Oswald__ as the font for the game.
 What's a good color scheme for the design? Build the UI in noir colors first and then add a small amount of color to accent options.
 
 Vibrant blues for accents. Possibly a gradient to a pink or purple for certain backgrounds (see Celeste stat screen).
+
+`#1C70F2` to `#1AC9FB` gradient of primary accent color.
 
 ---
 
