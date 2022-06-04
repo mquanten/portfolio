@@ -21,10 +21,10 @@ Create at least one mood board for each character, including all bosses.
 - [ ] Rooms
 - [ ] Enemy minions
 - [ ] Bosses
-- [ ] Teeth for health
-- [ ] Mirrors
+- [x] Teeth for health
 - [ ] Dentist Scalpels
 - [ ] Menu decorations
+- [ ] Skull
 - [ ] Level Props
 
 > [!QUESTION] Bush destruction?
