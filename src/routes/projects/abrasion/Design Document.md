@@ -54,17 +54,18 @@ In this game users will take on the role of _Dens_ a tooth trying to get back to
 |     | Milestone                          | Date            | Done |
 | --- | ---------------------------------- | --------------- | ---- |
 | 1   | [Tight Controls](Tight%20Controls) | 02.06.22        |  ✅   |
-| 2   | [Animation](Animation)             | 14.08.22        |      |
-| 3   | [Combat](Combat)                   | 06.06.22        |      |
-| 4   | [Map Outline](Map%20Outline)       | 08.08.22        |      |
-| 5   | [Art Assets](Art%20Assets)         | 12.08.22        |      |
-| 6  | [Lighting](Lighting)             | 15.08.22        |      |
-| 7   | [Sound Effects](Sound%20Effects)   | 18.08.22        |      |
-| 8   | [Soundtrack](Soundtrack)           | 31.08.22        |      |
-| 9    | [User Interface](User%20Interface) | 05.06.22        | Designed     |
-| 10  | [Polishing](Polishing)             | Release         |      |
-| 11  | [Funding](Funding)                 | Release         |      |
-| 12  | [Publish](Publish)                 | Estimate: 31.09 |      |
+| 2   | [Combat](Combat)                   | 06.06.22        |      |
+| 3   | [Map Outline](Map%20Outline)       | 08.08.22        |      |
+| 4   | [Art Assets](Art%20Assets)         |         |      |
+| 5 | Populate Map | | 
+| 6  | [Lighting](Lighting)             |         |      |
+| 7   | [Animation](Animation)             |         |      |
+| 8   | [Sound Effects](Sound%20Effects)   |         |      |
+| 9   | [Soundtrack](Soundtrack)           |         |      |
+| 10    | [User Interface](User%20Interface) |         | Designed     |
+| 11  | [Polishing](Polishing)             | Release         |      |
+| 12  | [Funding](Funding)                 | Release         |      |
+| 13  | [Publish](Publish)                 | Estimate: 31.09 |      |
 
 ---
 
