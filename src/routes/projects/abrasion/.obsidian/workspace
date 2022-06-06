@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Document.md",
+            "file": "Tech Stack.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Document.md",
+                "file": "Tech Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "fa0c3cc37ae2612b",
   "lastOpenFiles": [
+    "Tech Stack.md",
     "Design Document.md",
     "User Interface.md",
     "Art Assets.md",
@@ -98,7 +99,6 @@
     "Map Outline.md",
     "Soundtrack.md",
     "Sound Effects.md",
-    "Shop.md",
-    "Publish.md"
+    "Shop.md"
   ]
 }
