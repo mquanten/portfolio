@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tech Stack.md",
+            "file": "Game Dev Notes.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Stack.md",
+                "file": "Game Dev Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "fa0c3cc37ae2612b",
   "lastOpenFiles": [
+    "Game Dev Notes.md",
     "Tech Stack.md",
     "Design Document.md",
     "User Interface.md",
@@ -98,7 +99,6 @@
     "Tight Controls.md",
     "Map Outline.md",
     "Soundtrack.md",
-    "Sound Effects.md",
-    "Shop.md"
+    "Sound Effects.md"
   ]
 }
