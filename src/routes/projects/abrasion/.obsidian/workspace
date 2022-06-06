@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Game Dev Notes.md",
+            "file": "Game Dev & Design Notes.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game Dev Notes.md",
+                "file": "Game Dev & Design Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,7 +90,7 @@
   },
   "active": "fa0c3cc37ae2612b",
   "lastOpenFiles": [
-    "Game Dev Notes.md",
+    "Game Dev & Design Notes.md",
     "Tech Stack.md",
     "Design Document.md",
     "User Interface.md",
