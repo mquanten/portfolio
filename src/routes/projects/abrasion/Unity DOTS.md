@@ -1,3 +1,7 @@
+---
+date: 07.06.22
+tags: computing/development/games/unity/dots
+---
  DOTS is a combination of new technologies. It requires the programmer to think about code and data using data-oriented design (_DoD_) as opposed to the usual object-oriented. This is important as it allows Unity and projects created in it to scale as technology does.
 
 - Enables you to take advantage of multicore processors to parallelize data processing and increase performance.
@@ -62,3 +66,10 @@ The best place to start is to figure out what data you actually need and what tr
 The transformations should give you an idea of the read/write access patterns.
 
 Use a worksheet [such as this](https://connect-prd-cdn.unity.com/20210129/e85c56d2-3c6a-4d77-8380-6fbaa426257d/Breakout%20Data%20Worksheet%20-%20Breakout.pdf?_ga=2.81724819.542213017.1654562666-1736554967.1654212677) to save time during the implementation of your application, it helps catch issues with the data design early and the design should make it quick and easy to figure out which components and systems you need to implement.
+
+### Designing for Efficient Transformation
+You should arrange data in a way that maximizes efficient access to them. When a CPU is processing data and finds it already in a cache line, it is accessed very fast. This is a chace hit. When the data is not in a cache line, that's called a cache miss, and causes the CPU to have to wait a long time to fetch the data from main memory.
+
+This means forgetting about Dictionaries and linked lists as they involve a huge amoutn of random memory access, resilting in many cache misses. Instead think in terms of simple, predictable, linear data structures: arrays and lists (or rather, NativeArray and NativeList).
+
+ECS stores component data in arrays packed inside chunks. It's efficient to process a whole chunk of components at once because it maximizes CPU cache hits. 
