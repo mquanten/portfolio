@@ -12,10 +12,8 @@ __DOTS__ consists of the following elements:
 	2. The C# Job System, which provides a simple method of generating multithreaded code. This is distributed through the __Jobs__ package.
 	3. The Burst Compiler, which generates fast and optimized native code. Availible throguh the __Burst__ package.
 	4. Native Containers, which are ECS data structures that provide control over memory.
+1-3 are considered the __three pillars of DOTS__. Together the combine to form the foundation of delivering performant data-oriented solutions.
+
+
 
 # Best Practices
-
-# How To
-- Install Entities & Jobs.
-- ECS helps to write less and cleaner code.
-- 
