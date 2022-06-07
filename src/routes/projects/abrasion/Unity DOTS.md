@@ -60,3 +60,5 @@ With a data-oriented approach the typical workflow is to identify and organise t
 The best place to start is to figure out what data you actually need and what transformations you need your code to perform on the data to achieve the behaviour you want. For example, a a movement location and transforming it up or down based on player input.
 
 The transformations should give you an idea of the read/write access patterns.
+
+Use a worksheet [such as this](https://connect-prd-cdn.unity.com/20210129/e85c56d2-3c6a-4d77-8380-6fbaa426257d/Breakout%20Data%20Worksheet%20-%20Breakout.pdf?_ga=2.81724819.542213017.1654562666-1736554967.1654212677) to save time during the implementation of your application, it helps catch issues with the data design early and the design should make it quick and easy to figure out which components and systems you need to implement.
