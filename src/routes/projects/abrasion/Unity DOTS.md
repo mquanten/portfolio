@@ -73,3 +73,61 @@ You should arrange data in a way that maximizes efficient access to them. When a
 This means forgetting about Dictionaries and linked lists as they involve a huge amoutn of random memory access, resilting in many cache misses. Instead think in terms of simple, predictable, linear data structures: arrays and lists (or rather, NativeArray and NativeList).
 
 ECS stores component data in arrays packed inside chunks. It's efficient to process a whole chunk of components at once because it maximizes CPU cache hits. 
+
+Often the best waya to achieve fine-grained EntityQueries is to construct entites from a large number of small components to get fine-grained control over entity archetypes rather ahn to construct a smaller number of large components. Additionally, smaller components result in much more efficient use of the CPU cache.
+
+An example would be a component for the ball in the Breakout example. It might be tempting to keep all of the data in one component like you would in OOP if you were creating a "ball" class:
+
+``` C#
+public struct Ball: IComponentData
+{
+	public float2 Position;
+	public float2 Direction; 
+	public float Speed; 
+	public float2 Size;
+	// etc
+}
+```
+
+This is fine if all of the systems that process __Ball__ components access every pieve of this data. However different systems operate on different subsets of data. For example the rendering system only needs the __Position__ and __Size__, yet all the data will be packing into the cache whenever just one of the variables is needed, filling the cache with data which isn't being used.
+
+If your data design keeps all of the data in separate components, the Rendering system can have a cache line that accesses packed __Position__ components, and another cache line that accesses packed __Size__ components, and then it does work on all of the content of those caches.
+
+### What's Blittable and Burstable
+Traditional OOP techniques confie most code to the main thread, meaning you only use a fraction of the potential processing power of modern CPUs.
+
+The C# Job System makes it much easier to write multithreaded code without race conditions because it contains a safety system which effectivle bans code that would allow race conditions to occur. To ensure the check for potential race conditions is efficient, you can only create jobs that operate on blittable data types. Blittable data is data that can be copied into memory from disk or another part of memory, in a single block copy operation, with no need to fix broked references once it has been copied. That means no pointer/reference fix-up, no classes, references, nothing that lives on the managed heap. You should design your data using simple types like int, float, bool, etc and structs containing only those types.
+
+The other major advantage is Burst can compile jobs, which results in highly-optimize native code. You can apply the Burst compiler to all jobs you write in [High Performance C#](https://blog.unity.com/technology/on-dots-c-c). 
+
+### Is the Data Read Only?
+Data that is used as an input and not modified as an output should be declared as such: 
+
+``` C#
+public readonly int jumpSpeed;
+public const int jumpSpeed;
+```
+
+This allows the Job Scheduler to safely parallelize the jobs that process it. This in turn gives the schedulre more options to figure out how to arrange scheduled jobs.
+
+If your data design worksheet shows data that is read-only in every transformation, the data shouldn't be in a component, ideally it should be in a [BlobAsset](https://docs.unity3d.com/Packages/com.unity.entities@0.50/api/Unity.Entities.BlobBuilder.html). An immutable data structure which can contain blittable data, as well as structs and arrays of blittable data and strings in the form of `BlobString`.  As they are stored in binary format they can be deserialized much quicker than OOP assets.
+
+### Most Common use-cases
+Structure the data to make the most common operations have the most efficient access. For example you should prioritse the efficiency of the operations that happen 100,000 times a fram over those that happen once per frame.
+
+This means you should plan EntityQueries well.
+
+### Don't use strings
+The Job System and Burst support a number of primitive types, support for __char__ is due in the future. Strings are very inefficient data types for most purposes. They are generally only useful for UI displays, file names and paths for loading or saving, and for debugging.
+
+## Implementation fundamentals
+It's useful to keep the __Unity CPU Profile__ and the __Console window__ open and visible. 
+
+### Seperate data from systems
+There should be no methods in components and no data in systems.
+
+### Avoid static data for faster iteration times.
+> [!NOTE] Enable Play Mode Options
+> This will start play mode faster.
+
+### Declare write access correctly in Entities.ForEach() and jobs
