@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Metroidvania in Unity Notes.md",
+            "file": "Different Scripts in Game Dev.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metroidvania in Unity Notes.md",
+                "file": "Different Scripts in Game Dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,7 +90,7 @@
   },
   "active": "fa0c3cc37ae2612b",
   "lastOpenFiles": [
-    "Metroidvania in Unity Notes.md",
+    "Different Scripts in Game Dev.md",
     "Tech Stack.md",
     "Design Document.md",
     "User Interface.md",
