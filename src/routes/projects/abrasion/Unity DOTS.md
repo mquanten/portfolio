@@ -1,0 +1,3 @@
+- Install Entities & Jobs.
+- ECS helps to write less and cleaner code.
+- 

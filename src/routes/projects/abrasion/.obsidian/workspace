@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Different Scripts in Game Dev.md",
+            "file": "Unity DOTS.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Different Scripts in Game Dev.md",
+                "file": "Unity DOTS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "fa0c3cc37ae2612b",
   "lastOpenFiles": [
+    "Unity DOTS.md",
     "Different Scripts in Game Dev.md",
     "Tech Stack.md",
     "Design Document.md",
@@ -98,7 +99,6 @@
     "Moodboard.md",
     "Tight Controls.md",
     "Map Outline.md",
-    "Soundtrack.md",
-    "Sound Effects.md"
+    "Soundtrack.md"
   ]
 }
