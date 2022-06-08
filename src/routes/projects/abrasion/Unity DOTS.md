@@ -131,3 +131,7 @@ There should be no methods in components and no data in systems.
 > This will start play mode faster.
 
 ### Declare write access correctly in Entities.ForEach() and jobs
+
+# Packages
+Below is a list of packages that are a good base for DOTS based 2D projects, obviously you would swap out the 2D packages for the ones in the 3D templates.
+![Package List](Screenshot%202022-06-08%20at%2000.56.38.png)
