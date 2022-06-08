@@ -4,7 +4,8 @@ tags: ['abrasion']
 layout: document
 ---
 # Give these links a look
-- https://docs.unity3d.com/Packages/com.unity.game-foundation@0.9/manual/index.html
+- [ ] https://docs.unity3d.com/Packages/com.unity.game-foundation@0.9/manual/index.html
+- [ ] https://javascript.plainenglish.io/my-experience-using-deno-svelte-and-tailwind-in-2021-59ca5c057c49
 
 
 ## App Info
