@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design Document.md",
+            "file": "Tech Stack.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "c343696c62aca8a1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Whatsername - Website.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Document.md",
+                "file": "Tech Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +111,15 @@
   },
   "active": "2a6c49765e0fe73c",
   "lastOpenFiles": [
-    "Design Document.md",
-    "Unity DOTS.md",
-    "User Interface.md",
     "Tech Stack.md",
+    "Whatsername - Website.md",
+    "Unity DOTS.md",
+    "Design Document.md",
+    "User Interface.md",
     "Different Scripts in Game Dev.md",
     "Art Assets.md",
     "Moodboard.md",
     "Tight Controls.md",
-    "Map Outline.md",
-    "Soundtrack.md"
+    "Map Outline.md"
   ]
 }

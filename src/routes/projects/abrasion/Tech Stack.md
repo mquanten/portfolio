@@ -4,7 +4,7 @@ Use this for larger applications such as Businesses with ecommerce stores and si
 The tools required for building the frontend of your application that users will see.
 
 - Typescript
-- React with Next.js or Svelte
+- Next.js or Svelte
 - Tailwind CSS
 
 ## API
@@ -30,12 +30,10 @@ A serverside runtime and database for all the data.
 
 
 # Tiny Stack
-Use this for fun little projects or simple apps that don't require a full frontend framework such as personal blogs or simple static business pages with no edits required.
+Use this for smaller projects that don't require quite so much extra layers. Something like a simple blog.
 ## Frontend
 - Alpine
-- Tailwind CSS
-- Ionic
+- Milligram
 
 ## Backend
 - Firebase
-- Firebase Cloud Functions
