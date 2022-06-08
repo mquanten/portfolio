@@ -8,6 +8,8 @@ layout: document
 - [ ] https://javascript.plainenglish.io/my-experience-using-deno-svelte-and-tailwind-in-2021-59ca5c057c49
 
 
+
+
 ## App Info
 
 **Tentative Title**: Abrasion.
@@ -54,22 +56,16 @@ In this game users will take on the role of _Dens_ a tooth trying to get back to
 ---
 
 ## Timeline
-
-|     | Milestone                          | Date            | Done |
-| --- | ---------------------------------- | --------------- | ---- |
-| 1   | [Tight Controls](Tight%20Controls) | 02.06.22        |  ✅   |
-| 2   | [Combat](Combat)                   | 06.06.22        |      |
-| 3   | [Map Outline](Map%20Outline)       | 08.08.22        |      |
-| 4   | [Art Assets](Art%20Assets)         |         |      |
-| 5 | Populate Map | | 
-| 6  | [Lighting](Lighting)             |         |      |
-| 7   | [Animation](Animation)             |         |      |
-| 8   | [Sound Effects](Sound%20Effects)   |         |      |
-| 9   | [Soundtrack](Soundtrack)           |         |      |
-| 10    | [User Interface](User%20Interface) |         | Designed     |
-| 11  | [Polishing](Polishing)             | Release         |      |
-| 12  | [Funding](Funding)                 | Release         |      |
-| 13  | [Publish](Publish)                 | Estimate: 31.09 |      |
+- [ ] Test Level
+- [ ] Player Control
+- [ ] Combat
+- [ ] Pickups
+- [ ] Abilities
+- [ ] Map Outline
+- [ ] LDTK
+- [ ] Sprites
+- [ ] Sound Effects
+- [ ] Music
 
 ---
 
