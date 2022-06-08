@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Unity DOTS.md",
+            "file": "Design Document.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unity DOTS.md",
+                "file": "Design Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,11 +99,11 @@
   },
   "active": "2a6c49765e0fe73c",
   "lastOpenFiles": [
+    "Design Document.md",
     "Unity DOTS.md",
     "User Interface.md",
     "Tech Stack.md",
     "Different Scripts in Game Dev.md",
-    "Design Document.md",
     "Art Assets.md",
     "Moodboard.md",
     "Tight Controls.md",
