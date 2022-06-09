@@ -14,6 +14,8 @@ API's connect the front and backends and include anything that fall into front a
 - Apollo
 - Stripe
 - Auth0
+- [Keystone CMS](https://keystonejs.com/docs/walkthroughs/embedded-mode-with-sqlite-nextjs#how-to-embed-keystone-sq-lite-in-a-next-js-app)
+- [Ghost](https://ghost.org/pricing/)
 
 ##  Backend
 A serverside runtime and database for all the data.
