@@ -1,6 +1,6 @@
 # Whatsername Site Plan
 ## Stack 
-- Medusa
+- Swell
 - Sanity.io
 - Next.js
 - Typescript
