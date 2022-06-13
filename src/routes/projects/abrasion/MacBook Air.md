@@ -1,0 +1,14 @@
+# MacBook Air
+- xCode
+- Vim
+	- Zettelkasten
+	- IDE
+- GitHub CLI
+- Safari
+- Julia
+- Logic Pro
+- Final Cut Pro
+- Plover
+- GOG Galaxy
+- Vimari
+- Game Engine

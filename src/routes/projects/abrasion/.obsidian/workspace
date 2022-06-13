@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tech Stack.md",
+            "file": "MacBook Air.md",
             "mode": "source",
             "source": false
           }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Stack.md",
+                "file": "Whatsername - Website.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2a6c49765e0fe73c",
+  "active": "c343696c62aca8a1",
   "lastOpenFiles": [
-    "Tech Stack.md",
     "Whatsername - Website.md",
+    "MacBook Air.md",
+    "Tech Stack.md",
     "Unity DOTS.md",
     "Design Document.md",
     "User Interface.md",
     "Different Scripts in Game Dev.md",
     "Art Assets.md",
     "Moodboard.md",
-    "Tight Controls.md",
-    "Map Outline.md"
+    "Tight Controls.md"
   ]
 }
