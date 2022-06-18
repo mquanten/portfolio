@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Triad Theory.md",
+            "file": "FACGCE Tuning.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Triad Theory.md",
+                "file": "FACGCE Tuning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +99,7 @@
   },
   "active": "151dc274ee9ff739",
   "lastOpenFiles": [
+    "FACGCE Tuning.md",
     "Triad Theory.md",
     "Whatsername - Website.md",
     "MacBook Air.md",
@@ -107,7 +108,6 @@
     "Design Document.md",
     "User Interface.md",
     "Different Scripts in Game Dev.md",
-    "Art Assets.md",
-    "Moodboard.md"
+    "Art Assets.md"
   ]
 }
