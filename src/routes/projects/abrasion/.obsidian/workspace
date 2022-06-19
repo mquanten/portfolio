@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FACGCE Tuning.md",
+            "file": "Triad Theory.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b0b9d01090ade9cc",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FACGCE Tuning.md",
+                "file": "Triad Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +98,8 @@
   },
   "active": "151dc274ee9ff739",
   "lastOpenFiles": [
-    "FACGCE Tuning.md",
     "Triad Theory.md",
+    "FACGCE Tuning.md",
     "Whatsername - Website.md",
     "MacBook Air.md",
     "Tech Stack.md",
