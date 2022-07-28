@@ -20,7 +20,7 @@
 <svelte:head>
   <title>Projects | Mac</title>
 </svelte:head>
-<div class="container flex-col py-6">
+<div class="container flex-col py-8">
   <h1 class="title">Projects 123</h1>
   <ProjectList {projects} />
   {JSON.stringify(projects)}
