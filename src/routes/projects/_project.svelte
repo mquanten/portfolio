@@ -51,12 +51,8 @@
   </section>
   <section id="content" class="md:p-4">
     <slot />
-    <p>Thanks for reading this post.</p>
-    <div class="flex flex-col items-start space-y-2">
-      <h2>Mac</h2>
       <a href="/projects" class="link text-primary-700 no-underline">
         View more projects</a
       >
-    </div>
   </section>
 </article>
