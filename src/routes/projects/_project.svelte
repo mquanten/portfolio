@@ -13,6 +13,7 @@
   <meta property="og:article:author:username" content="Mac9" />
   <meta property="og:article:author:gender" content="Male" />
   <meta property="og:article:tag" content={technologies} />
+   <link rel="preload" as="image" href={image} />
 </svelte:head>
 <article
   class="relative flex flex-col items-center p-4 mx-auto prose max-w-prose"
