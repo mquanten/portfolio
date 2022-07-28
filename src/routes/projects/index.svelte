@@ -2,7 +2,6 @@
   export const load = async ({ fetch }) => {
     const projects = await fetch('/api/projects.json')
     const allProjects = await projects.json()
-    console.log(allProjects)
 
     return {
       props: {
@@ -23,5 +22,4 @@
 <div class="container flex-col py-8">
   <h1 class="title">Projects 123</h1>
   <ProjectList {projects} />
-  {JSON.stringify(projects)}
 </div>
