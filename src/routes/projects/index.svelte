@@ -19,7 +19,7 @@
 <svelte:head>
   <title>Projects | Mac</title>
 </svelte:head>
-<div class="container flex-col py-8">
+<div class="container flex-col py-6">
   <h1 class="title">Projects</h1>
   <ProjectList {projects} />
 </div>
