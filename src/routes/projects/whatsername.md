@@ -2,7 +2,7 @@
 title: Whatsername
 date: '27.07.22'
 technologies: ['nextjs', 'tw']
-image: https://whatsername.co.uk/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F878j5f8u%2Fproduction%2F84286bf90d1addcb6ac877b45e6bebe8a8691568-1442x558.png&w=1920&q=75
+image: https://www.whatsername.co.uk/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F878j5f8u%2Fproduction%2F6211b8fcd60549b4afd16817dd1ca9086c5dfd3e-1920x1080.png&w=1920&q=75
 snippet: Static site for a music promotion company.
 ---
 
