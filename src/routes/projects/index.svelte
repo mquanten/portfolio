@@ -14,6 +14,7 @@
 <script>
   import ProjectList from '$lib/components/project-list.svelte'
   export let projects
+  console.log(projects)
 </script>
 
 <svelte:head>
