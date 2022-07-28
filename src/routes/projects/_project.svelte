@@ -51,6 +51,7 @@
   </section>
   <section id="content" class="md:p-4">
     <slot />
+    <br/>
       <a href="/projects" class="link text-primary-700 no-underline">
         View more projects</a
       >
