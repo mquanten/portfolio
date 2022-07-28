@@ -8,7 +8,7 @@ snippet: Static site for a music promotion company.
 
 ## Technologies
 
-This site is built using Next.js with Tailwind for styles. I chose this as it is a widely used SSG with lots of documentation and a great community that is able to offer help. I enjoy using Tailwind for style as it greatly improves my development speed by being able to quickly apply utility classes.
+This site is built using Next.js with Tailwind for styles. I chose Next as it is a widely used SSG with lots of documentation and a great community that is able to offer help. I enjoy using Tailwind for styling as it greatly improves my development speed by being able to quickly apply utility classes.
 
 The pages fetch content from a Sanity CMS api. This allows the site's users and authors to edit content and products that are available on the site.
 
