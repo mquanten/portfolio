@@ -2,6 +2,7 @@
   export const load = async ({ fetch }) => {
     const projects = await fetch('/api/projects.json')
     const allProjects = await projects.json()
+    console.log(allProjects)
 
     return {
       props: {
@@ -14,7 +15,6 @@
 <script>
   import ProjectList from '$lib/components/project-list.svelte'
   export let projects
-  console.log(projects)
 </script>
 
 <svelte:head>
@@ -23,4 +23,5 @@
 <div class="container flex-col py-6">
   <h1 class="title">Projects</h1>
   <ProjectList {projects} />
+  {JSON.stringify(projects)}
 </div>
