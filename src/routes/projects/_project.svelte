@@ -44,7 +44,7 @@
       {:else}
         <img
           src={tech === 'tw'
-            ? `https://cdn. : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
+            ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg` : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
           alt={title}
           class="w-5 h-5 m-0 my-1"
         />
