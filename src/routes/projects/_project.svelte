@@ -33,7 +33,7 @@
     >
   </a>
   <section id="header" class="flex flex-col items-start justify-start md:p-4">
-    <img class="rounded-2xl aspect-2" src={image} alt={title} />
+    <img class="rounded-2xl aspect-video" src={image} alt={title} />
     <h1 class="m-0">{title}</h1>
     <div class="flex justify-start items-center m-0 p-0 space-x-2">
       {#each technologies as tech}

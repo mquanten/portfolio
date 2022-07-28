@@ -41,7 +41,7 @@
   </a>
   <section id="header" class="flex flex-col items-start justify-start md:p-4">
     <img
-      class="rounded-2xl aspect-2 shadow-md"
+      class="rounded-2xl aspect-video shadow-md"
       src={`../../blog/${cover}`}
       alt={title}
     />
