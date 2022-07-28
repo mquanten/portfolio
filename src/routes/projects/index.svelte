@@ -24,4 +24,5 @@
   <h1 class="title">Projects</h1>
   <ProjectList {projects} />
   {JSON.stringify(projects)}
+  aaa
 </div>
