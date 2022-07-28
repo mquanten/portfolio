@@ -14,4 +14,4 @@ The pages fetch content from a Sanity CMS api. This allows the site's users and 
 
 I have utilised Stripe and React Context to create a custom payment flow that then sends the customer a confirmation email and the site owners an email with the order information.
 
-[View this site here](https://whatsername.co.uk)
+<a href='https://whatsername.co.uk' target='_blank' rel='noopener'>View this site here</a>
