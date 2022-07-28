@@ -1,4 +1,4 @@
-import vercel from '@sveltejs/adapter-vercel';
+import vercel from '@sveltejs/adapter-vercel'
 import image from 'svelte-image'
 import { mdsvex } from 'mdsvex'
 import relativeImages from 'mdsvex-relative-images'
@@ -18,8 +18,7 @@ export default {
       remarkPlugins: [relativeImages],
       layout: {
         projects: 'src/routes/projects/_project.svelte',
-        blog: 'src/routes/blog/_blog.svelte',
-        document: 'src/routes/projects/abrasion/_document.svelte'
+        blog: 'src/routes/blog/_blog.svelte'
       }
     })
   ]
