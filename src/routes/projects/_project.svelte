@@ -37,9 +37,10 @@
     <h1 class="m-0">{title}</h1>
     <div class="flex justify-start items-center m-0 p-0 space-x-2">
       {#each technologies as tech}
-      {#if tech === 'stripe' && <img src='https://thumbs.bfldr.com/at/frwcjft3nmmn6fccbt79bcm8?expiry=1659648579&fit=bounds&height=162&sig=MTc3YTZlOTJlYTAwZDI5ZTlhN2E3NjIzMTMxOGQ3NzQzNTkyN2JjYw%3D%3D&width=262'           alt={title}
-          class="w-5 h-5 m-0 my-1" />
-      }
+      {#if tech === 'stripe'}
+        <img src='https://thumbs.bfldr.com/at/frwcjft3nmmn6fccbt79bcm8?expiry=1659648579&fit=bounds&height=162&sig=MTc3YTZlOTJlYTAwZDI5ZTlhN2E3NjIzMTMxOGQ3NzQzNTkyN2JjYw%3D%3D&width=262'           alt={title}
+             class="w-5 h-5 m-0 my-1"
+        />
       {:else}
         <img
           src={tech === 'tw'
