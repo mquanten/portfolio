@@ -4,7 +4,7 @@
 
 <a
   href={path}
-  class="self-center snap-center flex-shrink-0 w-64 h-full mr-4 shadow-xl rounded-2xl md:mt-8 bg-slate-200 md:hover:scale-105 "
+  class="self-center snap-center flex-shrink-0 w-72 h-full mr-4 shadow-xl rounded-2xl md:mt-8 bg-slate-200 md:hover:scale-105 "
 >
   <img
     src={image}
