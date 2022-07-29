@@ -10,7 +10,7 @@ If you're reading this, you are already on my new site. I'd have a quick look ar
 
 ## Svelte
 
-I chose to use [Svelte](https://svelte.dev) which, was recently picked up by [Vercel](https://vercel.com), my reasons for choosing it was how well svelte it is, the files are sleek with your styles, scripts and, template all living within a `.svelte` file which makes for incredibly streamlined components that are quick to manage.
+I chose to use [Svelte](https://svelte.dev){:target="\_blank"} which, was recently picked up by [Vercel](https://vercel.com), my reasons for choosing it was how well svelte it is, the files are sleek with your styles, scripts and, template all living within a `.svelte` file which makes for incredibly streamlined components that are quick to manage.
 
 A benefit of Svelte is that it compiles down to HTML, CSS, and JS during the build step, which means there is no client-side rendering, resulting in an incredibly performant app-like feeling on all websites.
 

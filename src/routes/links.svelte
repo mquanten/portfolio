@@ -8,7 +8,7 @@
 <div class="py-8 max-h-screen flex flex-col items-center justify-center text-center prose mx-auto">
   <img
     src="links.jpeg"
-    alt="Mac's avatar"
+    alt="Mac's avatar"_
     class="w-32 h-32 bg-primary-500 rounded-full shadow-lg"
   />
   <div class="flex flex-col space-y-2 max-w-[300px]">
