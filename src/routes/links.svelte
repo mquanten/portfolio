@@ -17,16 +17,6 @@
   </div>
   <ul class="links-list">
     <a
-      href="https://hyperfollow.com/nothingspecial9"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="no-underline"
-    >
-      <li>
-        Nothing Special
-      </li>
-    </a>
-    <a
       href="https://mac9.vercel.app/projects"
       target="_blank"
       rel="noopener noreferrer"
@@ -66,12 +56,6 @@
     </a>
     <a class="icon" href="https://instagram.com/mac.h95">
       <Instagram />
-    </a>
-    <a
-      class="icon"
-      href="https://www.snapchat.com/add/mac.h95"
-    >
-      <Snapchat />
     </a>
   </div>
 </div>
