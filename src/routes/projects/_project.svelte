@@ -38,6 +38,9 @@
     <h1 class="m-0">{title}</h1>
     <div class="flex justify-start items-center m-0 p-0 space-x-2">
       {#each technologies as tech}
+      {#if tech === 'stripe'}
+        <img src='../../static/technologies/stripe.png' alt='stripe' class='w-8 h-5 m-0 my-1'/>
+      {:else}
         <img
           src={tech === 'tw'
             ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg`
@@ -45,6 +48,7 @@
           alt={title}
           class="w-5 h-5 m-0 my-1"
         />
+        {/if}
       {/each}
     </div>
     <span class="text-slate-500">{date}</span>
