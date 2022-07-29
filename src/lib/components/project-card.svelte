@@ -16,7 +16,7 @@
     <ul class="flex items-center space-x-2">
       {#each technologies as tech}
       {#if tech === 'stripe'}
-        <img src='technologies/stripe.png' alt='stripe' class='w-8 h-5 m-0 my-1'/>
+        <img src='technologies/stripe.png' alt='stripe' class='w-10 h-5 m-0 my-1'/>
       {:else}
         <img
           src={tech === 'tw'
