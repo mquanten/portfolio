@@ -39,7 +39,7 @@
     <div class="flex justify-start items-center m-0 p-0 space-x-2">
       {#each technologies as tech}
       {#if tech === 'stripe'}
-        <img src='technologies/stripe.png' alt='stripe' class='w-10 h-5 -mx-2 my-1'/>
+        <img src='technologies/stripe.png' alt='stripe' class='w-10 h-5 -mx-4 my-1'/>
       {:else}
         <img
           src={tech === 'tw'

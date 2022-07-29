@@ -12,11 +12,11 @@
     class="w-full h-36 bg-red-100 rounded-tl-2xl rounded-tr-2xl"
   />
   <div class="flex flex-col items-start p-4 space-y-2">
-    <h2 class="text-2xl">{title}</h2>
+    <h2 class="text-2xl font-bold">{title}</h2>
     <ul class="flex items-center space-x-2">
       {#each technologies as tech}
       {#if tech === 'stripe'}
-        <img src='technologies/stripe.png' alt='stripe' class='w-10 h-5 -mx-2 my-1'/>
+        <img src='technologies/stripe.png' alt='stripe' class='w-10 h-5 -mx-4 my-1'/>
       {:else}
         <img
           src={tech === 'tw'
