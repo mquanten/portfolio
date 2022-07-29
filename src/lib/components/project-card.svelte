@@ -15,15 +15,17 @@
     <h2 class="text-2xl">{title}</h2>
     <ul class="flex items-center space-x-2">
       {#each technologies as tech}
-        <li class="inline-block">
-          <img
-            src={tech === 'tw'
-              ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg`
-              : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
-            alt={title}
-            class="w-5 h-5"
-          />
-        </li>
+      {#if tech === 'stripe'}
+        <img src='../../static/technologies/stripe.png' alt='stripe' class='w-8 h-5 m-0 my-1'/>
+      {:else}
+        <img
+          src={tech === 'tw'
+            ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg`
+            : tech === 'stripe' ? 'https://thumbs.bfldr.com/at/frwcjft3nmmn6fccbt79bcm8?expiry=1659648579&fit=bounds&height=162&sig=MTc3YTZlOTJlYTAwZDI5ZTlhN2E3NjIzMTMxOGQ3NzQzNTkyN2JjYw%3D%3D&width=262' : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
+          alt={title}
+          class="w-5 h-5 m-0 my-1"
+        />
+        {/if}
       {/each}
     </ul>
     <p class="my-3 line-clamp-3">
