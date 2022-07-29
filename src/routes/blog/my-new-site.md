@@ -10,7 +10,7 @@ If you're reading this, you are already on my new site. I'd have a quick look ar
 
 ## Svelte
 
-I chose to use [Svelte](https://svelte.dev){:target="\_blank"} which, was recently picked up by [Vercel](https://vercel.com), my reasons for choosing it was how well svelte it is, the files are sleek with your styles, scripts and, template all living within a `.svelte` file which makes for incredibly streamlined components that are quick to manage.
+I chose to use <a href='https://svelte.dev' target='_blank' rel='noopener'>Svelte</a> which, was recently picked up by <a href='https://vercel.com' target='_blank' rel='noopener'>Vercel</a>, my reasons for choosing it was how well svelte it is, the files are sleek with your styles, scripts and, template all living within a `.svelte` file which makes for incredibly streamlined components that are quick to manage.
 
 A benefit of Svelte is that it compiles down to HTML, CSS, and JS during the build step, which means there is no client-side rendering, resulting in an incredibly performant app-like feeling on all websites.
 
@@ -20,7 +20,7 @@ I learned about Tailwind a few years back. I chose it due to the simple theming 
 
 ## Markdown
 
-Thanks to the lovely [mdsvex](https://mdsvex.pngwn.io) package, writing posts and project pages within Markdown is dreamlike. Those familiar with [Markdown](https://www.markdownguide.org/basic-syntax/) know how convenient it is to write with, mdsvex takes minimal setup, it also allows custom layouts nested within your main page.
+Thanks to the lovely <a href='https://mdsvex.pngwn.io' target='_blank' rel='noopener'>mdsvex</a> package, writing posts and project pages within Markdown is dreamlike. Those familiar with <a href='https://www.markdownguide.org/basic-syntax/' target='_blank' rel='noopener'>Markdown</a> know how convenient it is to write with, mdsvex takes minimal setup, it also allows custom layouts nested within your main page.
 
 ## Google Lighthouse Scores
 
