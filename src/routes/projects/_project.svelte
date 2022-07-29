@@ -39,14 +39,14 @@
     <div class="flex justify-start items-center m-0 p-0 space-x-2">
       {#each technologies as tech}
       {#if tech === 'stripe'}
-        <img src='technologies/stripe.png' alt='stripe' class='w-10 h-5 m-0 my-1'/>
+        <img src='technologies/stripe.png' alt='stripe' class='w-10 h-5 -mx-2 my-1'/>
       {:else}
         <img
           src={tech === 'tw'
             ? `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg`
             : tech === 'stripe' ? 'https://thumbs.bfldr.com/at/frwcjft3nmmn6fccbt79bcm8?expiry=1659648579&fit=bounds&height=162&sig=MTc3YTZlOTJlYTAwZDI5ZTlhN2E3NjIzMTMxOGQ3NzQzNTkyN2JjYw%3D%3D&width=262' : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
           alt={title}
-          class="w-5 h-5 -mx-2 my-1"
+          class="w-5 h-5 mx-0 my-1"
         />
         {/if}
       {/each}
