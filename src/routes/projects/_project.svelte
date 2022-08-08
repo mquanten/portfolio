@@ -56,9 +56,9 @@
   <section id="content" class="md:p-4">
     <slot />
     <br/>
-    <div class='flex flex-col md:flex-row md:space-y-0 md:space-x-2 items-center no-underline space-y-2'>
-    <button class='primary'><a href={url} target='_blank' rel='noopener'>View this site here</a></button>
-    <button><a href="/projects">
+    <div class='flex flex-col md:flex-row md:space-y-0 md:space-x-2 items-center  space-y-2'>
+    <button class='primary '><a href={url} target='_blank' rel='noopener' class='no-underline'>View this site here</a></button>
+    <button><a href="/projects" class='no-underline'>
         View more projects</a
       >
       </button>
