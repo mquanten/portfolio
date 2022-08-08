@@ -58,7 +58,7 @@
     <br/>
     <div class='flex flex-col md:flex-row md:space-y-0 md:space-x-2 items-center  space-y-2'>
     <button class='primary '><a href={url} target='_blank' rel='noopener' class='no-underline'>View this site here</a></button>
-    <button><a href="/projects" class='no-underline'>
+    <button><a href="/projects" class='no-underline text-white-500'>
         View more projects</a
       >
       </button>
