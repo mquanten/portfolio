@@ -4,6 +4,7 @@ date: '27.07.22'
 technologies: ['nextjs', 'tw', 'stripe']
 image: https://www.whatsername.co.uk/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F878j5f8u%2Fproduction%2F6211b8fcd60549b4afd16817dd1ca9086c5dfd3e-1920x1080.png&w=1920&q=75
 snippet: Static site for a music promotion company.
+url: https://whatsername.co.uk
 ---
 
 ## Technologies

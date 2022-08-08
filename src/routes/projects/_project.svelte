@@ -1,5 +1,5 @@
 <script>
-  export let title, date, image, snippet, technologies
+  export let title, date, image, snippet, technologies, url
 </script>
 
 <svelte:head>
@@ -56,6 +56,7 @@
   <section id="content" class="md:p-4">
     <slot />
     <br/>
+    <button className='primary'><a href={url} target='_blank' rel='noopener'>View this site here</a></button>
       <a href="/projects" class="link text-primary-700 no-underline">
         View more projects</a
       >
