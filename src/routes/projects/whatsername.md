@@ -14,6 +14,3 @@ This site is built using Next.js with Tailwind for styles. I chose Next as it is
 The pages fetch content from a Sanity CMS api. This allows the site's users and authors to edit content and products that are available on the site.
 
 I have utilised Stripe and React Context to create a custom payment flow that then sends the customer a confirmation email and the site owners an email with the order information.
-
-<button className='bg-gradient-to-br from-primary-500 to-secondary-500 text-inherit hover:bg-gradient-to-br hover:from-primary-600 hover:to-secondary-600'><a href='https://whatsername.co.uk' target='_blank' rel='noopener'>View this site here</a></button>
-
