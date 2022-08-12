@@ -2,7 +2,7 @@
 title: Pokédex
 date: '12.08.2022'
 technologies: ['react']
-image: https://pokedex-mac.vercel.app/logo.svg
+image: https://pokedex-mac.vercel.app/screen.png
 snippet: A simple Pokédex app using the Pokéapi.
 url: https://pokedex.vercel.app
 ---
